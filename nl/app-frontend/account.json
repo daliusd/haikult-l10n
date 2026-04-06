@@ -1,0 +1,17 @@
+{
+  "account-control.accept.accepting": "Uitnodiging accepteren...",
+  "account-control.accept.success": "Uitnodiging geaccepteerd!",
+  "account-control.accept.can-manage": "U kunt nu account beheren: {email}",
+  "account-control.accept.redirecting": "Doorverwijzen naar instellingen...",
+  "account-control.accept.error": "Uitnodiging accepteren mislukt",
+  "account-control.accept.error.default": "Uitnodiging accepteren mislukt",
+  "account-control.accept.error.invalid": "Uitnodiging is ongeldig of verlopen",
+  "account-control.accept.button.home": "Terug naar Home",
+  "account-switcher.badge.controlled": "Beheerd",
+  "account-switcher.badge.read-only": "Alleen lezen",
+  "account-switcher.menu.switch-account": "Account wisselen",
+  "account-switcher.label.yours": "(Van u)",
+  "account-switcher.label.controlled": "Beheerde accounts:",
+  "account-switcher.label.current": "(Huidig)",
+  "account-switcher.switching": "Wisselen..."
+}

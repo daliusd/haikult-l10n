@@ -1,0 +1,19 @@
+{
+  "subject": "Faktura 🧾 {{invoiceNo}}",
+  "htmlFallback": "Mezu elektroniko honek HTML euskarria behar du.",
+  "sentVia": "Haiku.lt bidez bidalia",
+  "text": "Kaixo,\n\n{{invoiceNo}} faktura bidaltzen dizut.\n\nAgur bero bat,\n{{issuer}}",
+  "title": "Faktura",
+  "greeting": "Kaixo,",
+  "bodySimple": "<strong>{{invoiceNo}}</strong> faktura bidaltzen dizut.",
+  "bodyPrice": "<strong>{{invoiceNo}}</strong> faktura bidaltzen dizut, zenbatekoa: <strong>{{price}}</strong>.",
+  "regards": "Agur bero bat,",
+  "additionalInfo": "Informazio gehigarria:",
+  "additionalNote": "Ohar gehigarria:",
+  "invoiceInfo": "Informazio gehigarria:",
+  "lineItemName": "Elementua",
+  "lineItemQty": "Kop.",
+  "lineItemUnitPrice": "Unitate prezioa",
+  "lineItemTotal": "Guztira",
+  "totalLabel": "Guztira:"
+}

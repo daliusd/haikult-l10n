@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Račun",
+    "proformaTitle": "Predračun",
+    "creditTitle": "Knjižno Odobrenje",
+    "series": "Serija",
+    "number": "Br.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "RAČUN",
+    "title_vat": "RAČUN PDV",
+    "proforma_title": "PREDRAČUN",
+    "credit_title": "KNJIŽNO ODOBRENJE",
+    "series": "Serija",
+    "no": "Br.",
+    "seller": "Prodavač:",
+    "buyer": "Kupac:",
+    "lineItemNo": "Rb.",
+    "lineItemName": "Naziv usluge ili artikla",
+    "lineItemUnit": "Jedinica",
+    "lineItemPrice": "Cijena ({C})",
+    "lineItemPriceWithoutVAT": "Cijena bez PDV ({C})",
+    "lineItemAmount": "Količina",
+    "lineItemVat": "PDV (%)",
+    "lineItemVatSum": "Iznos PDV ({C})",
+    "lineItemSum": "Ukupno ({C})",
+    "sumInWords": "Iznos slovima:",
+    "total": "Ukupno",
+    "total_without_vat": "Ukupno bez PDV",
+    "vat": "PDV",
+    "alreadyPaid": "Plaćeno",
+    "sumToPay": "Za platiti",
+    "invoiceIssuedBy": "Račun izdao"
+  }
+}

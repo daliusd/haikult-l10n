@@ -1,0 +1,17 @@
+{
+  "account-control.accept.accepting": "Einladung wird angenommen...",
+  "account-control.accept.success": "Einladung angenommen!",
+  "account-control.accept.can-manage": "Sie können jetzt das Konto verwalten: {email}",
+  "account-control.accept.redirecting": "Weiterleitung zu Einstellungen...",
+  "account-control.accept.error": "Annehmen der Einladung fehlgeschlagen",
+  "account-control.accept.error.default": "Annehmen der Einladung fehlgeschlagen",
+  "account-control.accept.error.invalid": "Einladung ist ungültig oder abgelaufen",
+  "account-control.accept.button.home": "Zur Startseite zurückkehren",
+  "account-switcher.badge.controlled": "Verwaltet",
+  "account-switcher.badge.read-only": "Nur-Lese",
+  "account-switcher.menu.switch-account": "Konto wechseln",
+  "account-switcher.label.yours": "(Ihres)",
+  "account-switcher.label.controlled": "Verwaltete Konten:",
+  "account-switcher.label.current": "(Aktuell)",
+  "account-switcher.switching": "Wechseln..."
+}

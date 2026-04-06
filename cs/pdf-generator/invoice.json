@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Faktura",
+    "proformaTitle": "Zálohová Faktura",
+    "creditTitle": "Dobropis",
+    "series": "Série",
+    "number": "Č.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "FAKTURA",
+    "title_vat": "FAKTURA DPH",
+    "proforma_title": "ZÁLOHOVÁ FAKTURA",
+    "credit_title": "DOBROPIS",
+    "series": "Série",
+    "no": "Č.",
+    "seller": "Prodávající:",
+    "buyer": "Odběratel:",
+    "lineItemNo": "Č.",
+    "lineItemName": "Název služby nebo položky",
+    "lineItemUnit": "Jednotka",
+    "lineItemPrice": "Cena ({C})",
+    "lineItemPriceWithoutVAT": "Cena bez DPH ({C})",
+    "lineItemAmount": "Množství",
+    "lineItemVat": "DPH (%)",
+    "lineItemVatSum": "DPH částka ({C})",
+    "lineItemSum": "Celkem ({C})",
+    "sumInWords": "Částka slovy:",
+    "total": "Celkem",
+    "total_without_vat": "Celkem bez DPH",
+    "vat": "DPH",
+    "alreadyPaid": "Zaplaceno",
+    "sumToPay": "K úhradě",
+    "invoiceIssuedBy": "Fakturu vystavil"
+  }
+}

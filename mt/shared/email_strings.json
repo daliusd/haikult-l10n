@@ -1,0 +1,19 @@
+{
+  "subject": "Fattura 🧾 {{invoiceNo}}",
+  "htmlFallback": "Din l-email teħtieġ klijent tal-email kompatibbli ma' HTML.",
+  "sentVia": "Mibgħut permezz ta' haiku.lt",
+  "text": "Bonġu,\n\nQed nibgħatlek il-fattura {{invoiceNo}}.\n\nDistinti sliem,\n{{issuer}}",
+  "title": "Fattura",
+  "greeting": "Bonġu,",
+  "bodySimple": "Qed nibgħatlek il-fattura <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Qed nibgħatlek il-fattura <strong>{{invoiceNo}}</strong> għall-ammont ta' <strong>{{price}}</strong>.",
+  "regards": "Distinti sliem,",
+  "additionalInfo": "Informazzjoni addizzjonali:",
+  "additionalNote": "Nota addizzjonali:",
+  "invoiceInfo": "Informazzjoni tal-fattura:",
+  "lineItemName": "Oġġett",
+  "lineItemQty": "Kwant.",
+  "lineItemUnitPrice": "Prezz unitarju",
+  "lineItemTotal": "Total",
+  "totalLabel": "Total:"
+}

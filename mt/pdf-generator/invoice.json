@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Fattura",
+    "proformaTitle": "Fattura Proforma",
+    "creditTitle": "Nota ta' Kreditu",
+    "series": "Serje",
+    "number": "Nru.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "FATTURA",
+    "title_vat": "FATTURA VAT",
+    "proforma_title": "FATTURA PROFORMA",
+    "credit_title": "NOTA TA' KREDITU",
+    "series": "Serje",
+    "no": "Nru.",
+    "seller": "Bejjiegħ:",
+    "buyer": "Xerrej:",
+    "lineItemNo": "Nru.",
+    "lineItemName": "Deskrizzjoni tas-servizz jew oġġett",
+    "lineItemUnit": "Unità",
+    "lineItemPrice": "Prezz ({C})",
+    "lineItemPriceWithoutVAT": "Prezz mingħajr VAT ({C})",
+    "lineItemAmount": "Kwantità",
+    "lineItemVat": "VAT (%)",
+    "lineItemVatSum": "Ammont VAT ({C})",
+    "lineItemSum": "Total ({C})",
+    "sumInWords": "Ammont f'kliem:",
+    "total": "Total",
+    "total_without_vat": "Total mingħajr VAT",
+    "vat": "VAT",
+    "alreadyPaid": "Imħallas",
+    "sumToPay": "Biex jitħallas",
+    "invoiceIssuedBy": "Fattura maħruġa minn"
+  }
+}

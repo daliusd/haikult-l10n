@@ -1,0 +1,19 @@
+{
+  "subject": "Sąskaita faktūra 🧾 {{invoiceNo}}",
+  "htmlFallback": "Šis laiškas reikalauja HTML palaikančio el. pašto kliento.",
+  "sentVia": "Išsiųsta per haiku.lt",
+  "text": "Sveiki,\n\nSiunčiu jums sąskaitą faktūrą {{invoiceNo}}.\n\nSu pagarba,\n{{issuer}}",
+  "title": "Sąskaita faktūra",
+  "greeting": "Sveiki,",
+  "bodySimple": "Siunčiu jums sąskaitą faktūrą <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Siunčiu jums sąskaitą faktūrą <strong>{{invoiceNo}}</strong> sumai <strong>{{price}}</strong>.",
+  "regards": "Su pagarba,",
+  "additionalInfo": "Papildoma informacija:",
+  "additionalNote": "Papildoma informacija:",
+  "invoiceInfo": "Sąskaitos informacija:",
+  "lineItemName": "Prekė/Paslauga",
+  "lineItemQty": "Kiekis",
+  "lineItemUnitPrice": "Vieneto kaina",
+  "lineItemTotal": "Viso",
+  "totalLabel": "Viso:"
+}

@@ -1,0 +1,19 @@
+{
+  "subject": "Faktura 🧾 {{invoiceNo}}",
+  "htmlFallback": "Ovaj email zahtijeva klijent kompatibilan s HTML-om.",
+  "sentVia": "Poslano putem haiku.lt",
+  "text": "Pozdrav,\n\nŠaljem vam fakturu {{invoiceNo}}.\n\nS poštovanjem,\n{{issuer}}",
+  "title": "Faktura",
+  "greeting": "Pozdrav,",
+  "bodySimple": "Šaljem vam fakturu <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Šaljem vam fakturu <strong>{{invoiceNo}}</strong> u iznosu od <strong>{{price}}</strong>.",
+  "regards": "S poštovanjem,",
+  "additionalInfo": "Dodatne informacije:",
+  "additionalNote": "Dodatna napomena:",
+  "invoiceInfo": "Informacije o fakturi:",
+  "lineItemName": "Stavka",
+  "lineItemQty": "Kol.",
+  "lineItemUnitPrice": "Jed. cijena",
+  "lineItemTotal": "Ukupno",
+  "totalLabel": "Ukupno:"
+}

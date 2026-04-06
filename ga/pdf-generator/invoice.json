@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Sonrasc",
+    "proformaTitle": "Réamhshonrasc",
+    "creditTitle": "Sonrasc Creidmheasa",
+    "series": "Sraith",
+    "number": "Uimh.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "SONRASC",
+    "title_vat": "SONRASC CBL",
+    "proforma_title": "RÉAMHSHONRASC",
+    "credit_title": "SONRASC CREIDMHEASA",
+    "series": "Sraith",
+    "no": "Uimh.",
+    "seller": "Díoltóir:",
+    "buyer": "Ceannaitheoir:",
+    "lineItemNo": "Uimh.",
+    "lineItemName": "Cur síos ar sheirbhís nó mír",
+    "lineItemUnit": "Aonad",
+    "lineItemPrice": "Praghas ({C})",
+    "lineItemPriceWithoutVAT": "Praghas gan CBL ({C})",
+    "lineItemAmount": "Méid",
+    "lineItemVat": "CBL (%)",
+    "lineItemVatSum": "Suim CBL ({C})",
+    "lineItemSum": "Iomlán ({C})",
+    "sumInWords": "Suim i bhfocail:",
+    "total": "Iomlán",
+    "total_without_vat": "Iomlán gan CBL",
+    "vat": "CBL",
+    "alreadyPaid": "Íoctha",
+    "sumToPay": "Le híoc",
+    "invoiceIssuedBy": "Sonrasc eisithe ag"
+  }
+}

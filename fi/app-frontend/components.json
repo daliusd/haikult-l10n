@@ -1,0 +1,17 @@
+{
+  "hooks.email-preview.sample-note": "Voit lisätä sähköpostiin lisäviestin",
+  "hooks.email-preview.error.subject": "Virhe",
+  "hooks.email-preview.error.template-processing": "Virhe käsiteltäessä pohjaa: {message}",
+  "company-search.input.label": "Yrityksen nimi",
+  "company-search.input.description": "Haku perustuu kaupparekisterin ja verottajan tietoihin.",
+  "company-search.table.header": "Yrityksen nimi",
+  "company-search.error": "Virhe haettaessa yritystä.",
+  "company-search.info": "Syötä vähintään kaksi kirjainta yrityksen nimestä.",
+  "company-search.button.use": "Käytä",
+  "onboarding-modal.title": "Valitse kielesi, maasi ja valuuttasi",
+  "onboarding-modal.description": "Ennen aloittamista valitse haluamasi kieli, maa ja valuutta. Voit muuttaa näitä myöhemmin asetuksista.",
+  "onboarding-modal.language.label": "Kieli",
+  "onboarding-modal.country.label": "Maa",
+  "onboarding-modal.currency.label": "Valuutta",
+  "onboarding-modal.button.continue": "Jatka"
+}

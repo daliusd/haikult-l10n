@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Рахунок",
+    "proformaTitle": "Рахунок-проформа",
+    "creditTitle": "Кредит-нота",
+    "series": "Серія",
+    "number": "№",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "РАХУНОК",
+    "title_vat": "РАХУНОК ПДВ",
+    "proforma_title": "РАХУНОК-ПРОФОРМА",
+    "credit_title": "КРЕДИТ-НОТА",
+    "series": "Серія",
+    "no": "№",
+    "seller": "Продавець:",
+    "buyer": "Покупець:",
+    "lineItemNo": "№",
+    "lineItemName": "Найменування послуги або товару",
+    "lineItemUnit": "Од. вим.",
+    "lineItemPrice": "Ціна ({C})",
+    "lineItemPriceWithoutVAT": "Ціна без ПДВ ({C})",
+    "lineItemAmount": "Кількість",
+    "lineItemVat": "ПДВ (%)",
+    "lineItemVatSum": "Сума ПДВ ({C})",
+    "lineItemSum": "Разом ({C})",
+    "sumInWords": "Сума прописом:",
+    "total": "Разом",
+    "total_without_vat": "Разом без ПДВ",
+    "vat": "ПДВ",
+    "alreadyPaid": "Сплачено",
+    "sumToPay": "До сплати",
+    "invoiceIssuedBy": "Рахунок виписав"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Rechnung",
+    "proformaTitle": "Proformarechnung",
+    "creditTitle": "Gutschrift",
+    "series": "Serie",
+    "number": "Nr.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "RECHNUNG",
+    "title_vat": "MWST RECHNUNG",
+    "proforma_title": "PROFORMARECHNUNG",
+    "credit_title": "GUTSCHRIFT",
+    "series": "Serie",
+    "no": "Nr.",
+    "seller": "Verkeefer:",
+    "buyer": "Keefer:",
+    "lineItemNo": "Nr.",
+    "lineItemName": "Beschreiwung vum Service oder Artikel",
+    "lineItemUnit": "Eenheet",
+    "lineItemPrice": "Präis ({C})",
+    "lineItemPriceWithoutVAT": "Präis ouni MwSt ({C})",
+    "lineItemAmount": "Unzuel",
+    "lineItemVat": "MwSt (%)",
+    "lineItemVatSum": "MwSt Betrag ({C})",
+    "lineItemSum": "Total ({C})",
+    "sumInWords": "Betrag a Wierder:",
+    "total": "Total",
+    "total_without_vat": "Total ouni MwSt",
+    "vat": "MwSt",
+    "alreadyPaid": "Bezuelt",
+    "sumToPay": "Ze bezuelen",
+    "invoiceIssuedBy": "Rechnung ausgestallt vun"
+  }
+}

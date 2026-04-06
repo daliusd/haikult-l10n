@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Faktura",
+    "proformaTitle": "Proformafaktura",
+    "creditTitle": "Kreditfaktura",
+    "series": "Serie",
+    "number": "Nr",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "FAKTURA",
+    "title_vat": "MOMS FAKTURA",
+    "proforma_title": "PROFORMAFAKTURA",
+    "credit_title": "KREDITFAKTURA",
+    "series": "Serie",
+    "no": "Nr",
+    "seller": "Säljare:",
+    "buyer": "Köpare:",
+    "lineItemNo": "Nr",
+    "lineItemName": "Tjänst eller vara",
+    "lineItemUnit": "Enhet",
+    "lineItemPrice": "Pris ({C})",
+    "lineItemPriceWithoutVAT": "Pris exkl. moms ({C})",
+    "lineItemAmount": "Antal",
+    "lineItemVat": "Moms (%)",
+    "lineItemVatSum": "Momsbelopp ({C})",
+    "lineItemSum": "Summa ({C})",
+    "sumInWords": "Belopp i ord:",
+    "total": "Totalt",
+    "total_without_vat": "Totalt exkl. moms",
+    "vat": "Moms",
+    "alreadyPaid": "Betalt",
+    "sumToPay": "Att betala",
+    "invoiceIssuedBy": "Faktura utfärdad av"
+  }
+}

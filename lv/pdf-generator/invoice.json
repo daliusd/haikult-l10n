@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Rēķins",
+    "proformaTitle": "Priekšrēķins",
+    "creditTitle": "Kredītrēķins",
+    "series": "Sērija",
+    "number": "Nr.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "RĒĶINS",
+    "title_vat": "PVN RĒĶINS",
+    "proforma_title": "PRIEKŠRĒĶINS",
+    "credit_title": "KREDĪTRĒĶINS",
+    "series": "Sērija",
+    "no": "Nr.",
+    "seller": "Pārdevējs:",
+    "buyer": "Pircējs:",
+    "lineItemNo": "Nr.",
+    "lineItemName": "Pakalpojuma vai preces nosaukums",
+    "lineItemUnit": "Mērvienība",
+    "lineItemPrice": "Cena ({C})",
+    "lineItemPriceWithoutVAT": "Cena bez PVN ({C})",
+    "lineItemAmount": "Daudzums",
+    "lineItemVat": "PVN (%)",
+    "lineItemVatSum": "PVN summa ({C})",
+    "lineItemSum": "Kopā ({C})",
+    "sumInWords": "Summa vārdiem:",
+    "total": "Kopā",
+    "total_without_vat": "Kopā bez PVN",
+    "vat": "PVN",
+    "alreadyPaid": "Samaksāts",
+    "sumToPay": "Maksājamā summa",
+    "invoiceIssuedBy": "Rēķinu izdevis"
+  }
+}

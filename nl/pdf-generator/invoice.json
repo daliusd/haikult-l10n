@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Factuur",
+    "proformaTitle": "Proforma Factuur",
+    "creditTitle": "Creditnota",
+    "series": "Serie",
+    "number": "Nr.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "FACTUUR",
+    "title_vat": "BTW FACTUUR",
+    "proforma_title": "PROFORMA FACTUUR",
+    "credit_title": "CREDITNOTA",
+    "series": "Serie",
+    "no": "Nr.",
+    "seller": "Verkoper:",
+    "buyer": "Koper:",
+    "lineItemNo": "Nr.",
+    "lineItemName": "Omschrijving dienst of artikel",
+    "lineItemUnit": "Eenheid",
+    "lineItemPrice": "Prijs ({C})",
+    "lineItemPriceWithoutVAT": "Prijs excl. BTW ({C})",
+    "lineItemAmount": "Aantal",
+    "lineItemVat": "BTW (%)",
+    "lineItemVatSum": "BTW bedrag ({C})",
+    "lineItemSum": "Totaal ({C})",
+    "sumInWords": "Bedrag in woorden:",
+    "total": "Totaal",
+    "total_without_vat": "Totaal excl. BTW",
+    "vat": "BTW",
+    "alreadyPaid": "Betaald",
+    "sumToPay": "Te betalen bedrag",
+    "invoiceIssuedBy": "Factuur uitgegeven door"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "hooks.email-preview.sample-note": "Vous pouvez ajouter un message supplémentaire à l'e-mail",
+  "hooks.email-preview.error.subject": "Erreur",
+  "hooks.email-preview.error.template-processing": "Erreur lors du traitement du modèle : {message}",
+  "company-search.input.label": "Nom de l'entreprise",
+  "company-search.input.description": "Recherche par les données du Centre d'enregistrement et de l'Administration fiscale.",
+  "company-search.table.header": "Nom de l'entreprise",
+  "company-search.error": "Erreur lors de la recherche de l'entreprise.",
+  "company-search.info": "Saisissez au moins deux lettres du nom de l'entreprise.",
+  "company-search.button.use": "Utiliser",
+  "onboarding-modal.title": "Choisissez votre langue, pays et devise",
+  "onboarding-modal.description": "Avant de commencer, veuillez sélectionner votre langue, pays et devise préférés. Vous pourrez les modifier ultérieurement dans les paramètres.",
+  "onboarding-modal.language.label": "Langue",
+  "onboarding-modal.country.label": "Pays",
+  "onboarding-modal.currency.label": "Devise",
+  "onboarding-modal.button.continue": "Continuer"
+}

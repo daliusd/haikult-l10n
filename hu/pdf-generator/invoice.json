@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Számla",
+    "proformaTitle": "Proforma Számla",
+    "creditTitle": "Jóváíró Számla",
+    "series": "Sorozat",
+    "number": "Szám",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "SZÁMLA",
+    "title_vat": "ÁFA SZÁMLA",
+    "proforma_title": "PROFORMA SZÁMLA",
+    "credit_title": "JÓVÁÍRÓ SZÁMLA",
+    "series": "Sorozat",
+    "no": "Szám",
+    "seller": "Eladó:",
+    "buyer": "Vevő:",
+    "lineItemNo": "Sorsz.",
+    "lineItemName": "Szolgáltatás vagy termék megnevezése",
+    "lineItemUnit": "Egység",
+    "lineItemPrice": "Ár ({C})",
+    "lineItemPriceWithoutVAT": "Nettó ár ({C})",
+    "lineItemAmount": "Mennyiség",
+    "lineItemVat": "ÁFA (%)",
+    "lineItemVatSum": "ÁFA összeg ({C})",
+    "lineItemSum": "Összesen ({C})",
+    "sumInWords": "Összeg szavakban:",
+    "total": "Összesen",
+    "total_without_vat": "Nettó összesen",
+    "vat": "ÁFA",
+    "alreadyPaid": "Fizetve",
+    "sumToPay": "Fizetendő",
+    "invoiceIssuedBy": "Számlát kiállította"
+  }
+}

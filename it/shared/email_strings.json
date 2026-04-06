@@ -1,0 +1,19 @@
+{
+  "subject": "Fattura 🧾 {{invoiceNo}}",
+  "htmlFallback": "Questa email richiede un client di posta elettronica compatibile con HTML.",
+  "sentVia": "Inviato tramite haiku.lt",
+  "text": "Salve,\n\nLe invio la fattura {{invoiceNo}}.\n\nCordiali saluti,\n{{issuer}}",
+  "title": "Fattura",
+  "greeting": "Salve,",
+  "bodySimple": "Le invio la fattura <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Le invio la fattura <strong>{{invoiceNo}}</strong> per l'importo di <strong>{{price}}</strong>.",
+  "regards": "Cordiali saluti,",
+  "additionalInfo": "Informazioni aggiuntive:",
+  "additionalNote": "Nota aggiuntiva:",
+  "invoiceInfo": "Informazioni fattura:",
+  "lineItemName": "Articolo",
+  "lineItemQty": "Qtà",
+  "lineItemUnitPrice": "Prezzo unitario",
+  "lineItemTotal": "Totale",
+  "totalLabel": "Totale:"
+}

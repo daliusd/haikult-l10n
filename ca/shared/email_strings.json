@@ -1,0 +1,19 @@
+{
+  "subject": "Factura 🧾 {{invoiceNo}}",
+  "htmlFallback": "Aquest correu electrònic requereix un client de correu compatible amb HTML.",
+  "sentVia": "Enviat a través de haiku.lt",
+  "text": "Hola,\n\nUs envio la factura {{invoiceNo}}.\n\nCordialmen,\n{{issuer}}",
+  "title": "Factura",
+  "greeting": "Hola,",
+  "bodySimple": "Us envio la factura <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Us envio la factura <strong>{{invoiceNo}}</strong> per un import de <strong>{{price}}</strong>.",
+  "regards": "Cordialment,",
+  "additionalInfo": "Informació addicional:",
+  "additionalNote": "Nota addicional:",
+  "invoiceInfo": "Informació de la factura:",
+  "lineItemName": "Article",
+  "lineItemQty": "Quant.",
+  "lineItemUnitPrice": "Preu unitari",
+  "lineItemTotal": "Total",
+  "totalLabel": "Total:"
+}

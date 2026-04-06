@@ -1,0 +1,19 @@
+{
+  "subject": "Arve 🧾 {{invoiceNo}}",
+  "htmlFallback": "See e-kiri nõuab HTML-ühilduvat e-posti klienti.",
+  "sentVia": "Saadetud haiku.lt kaudu",
+  "text": "Tere,\n\nSaadan teile arve {{invoiceNo}}.\n\nLugupidamisega,\n{{issuer}}",
+  "title": "Arve",
+  "greeting": "Tere,",
+  "bodySimple": "Saadan teile arve <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Saadan teile arve <strong>{{invoiceNo}}</strong> summas <strong>{{price}}</strong>.",
+  "regards": "Lugupidamisega,",
+  "additionalInfo": "Lisateave:",
+  "additionalNote": "Lisam märkus:",
+  "invoiceInfo": "Arve teave:",
+  "lineItemName": "Nimetus",
+  "lineItemQty": "Kogus",
+  "lineItemUnitPrice": "Ühiku hind",
+  "lineItemTotal": "Kokku",
+  "totalLabel": "Kokku:"
+}

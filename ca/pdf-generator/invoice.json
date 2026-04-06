@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Factura",
+    "proformaTitle": "Factura Proforma",
+    "creditTitle": "Factura d'Abonament",
+    "series": "Sèrie",
+    "number": "Núm.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "FACTURA",
+    "title_vat": "FACTURA IVA",
+    "proforma_title": "FACTURA PROFORMA",
+    "credit_title": "FACTURA D'ABONAMENT",
+    "series": "Sèrie",
+    "no": "Núm.",
+    "seller": "Venedor:",
+    "buyer": "Comprador:",
+    "lineItemNo": "Núm.",
+    "lineItemName": "Descripció del servei o article",
+    "lineItemUnit": "Unitat",
+    "lineItemPrice": "Preu ({C})",
+    "lineItemPriceWithoutVAT": "Preu sense IVA ({C})",
+    "lineItemAmount": "Quantitat",
+    "lineItemVat": "IVA (%)",
+    "lineItemVatSum": "Import IVA ({C})",
+    "lineItemSum": "Total ({C})",
+    "sumInWords": "Import en lletres:",
+    "total": "Total",
+    "total_without_vat": "Total sense IVA",
+    "vat": "IVA",
+    "alreadyPaid": "Pagat",
+    "sumToPay": "Import a pagar",
+    "invoiceIssuedBy": "Factura emesa per"
+  }
+}

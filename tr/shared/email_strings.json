@@ -1,0 +1,19 @@
+{
+  "subject": "Fatura 🧾 {{invoiceNo}}",
+  "htmlFallback": "Bu e-posta HTML uyumlu bir e-posta istemcisi gerektirir.",
+  "sentVia": "Haiku.lt üzerinden gönderildi",
+  "text": "Merhaba,\n\n{{invoiceNo}} numaralı faturayı gönderiyorum.\n\nSaygılarımla,\n{{issuer}}",
+  "title": "Fatura",
+  "greeting": "Merhaba,",
+  "bodySimple": "<strong>{{invoiceNo}}</strong> numaralı faturayı gönderiyorum.",
+  "bodyPrice": "<strong>{{invoiceNo}}</strong> numaralı faturayı <strong>{{price}}</strong> tutarında gönderiyorum.",
+  "regards": "Saygılarımla,",
+  "additionalInfo": "Ek Bilgi:",
+  "additionalNote": "Ek Not:",
+  "invoiceInfo": "Fatura Bilgisi:",
+  "lineItemName": "Kalem",
+  "lineItemQty": "Miktar",
+  "lineItemUnitPrice": "Birim fiyat",
+  "lineItemTotal": "Toplam",
+  "totalLabel": "Toplam:"
+}

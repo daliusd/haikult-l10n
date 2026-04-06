@@ -1,0 +1,17 @@
+{
+  "account-control.accept.accepting": "Accepterer invitation...",
+  "account-control.accept.success": "Invitation accepteret!",
+  "account-control.accept.can-manage": "Du kan nu administrere konto: {email}",
+  "account-control.accept.redirecting": "Omdirigerer til indstillinger...",
+  "account-control.accept.error": "Kunne ikke acceptere invitation",
+  "account-control.accept.error.default": "Kunne ikke acceptere invitation",
+  "account-control.accept.error.invalid": "Invitationen er ugyldig eller udløbet",
+  "account-control.accept.button.home": "Tilbage til forsiden",
+  "account-switcher.badge.controlled": "Administreret",
+  "account-switcher.badge.read-only": "Skrivebeskyttet",
+  "account-switcher.menu.switch-account": "Skift konto",
+  "account-switcher.label.yours": "(Din)",
+  "account-switcher.label.controlled": "Administrerede konti:",
+  "account-switcher.label.current": "(Nuværende)",
+  "account-switcher.switching": "Skifter..."
+}

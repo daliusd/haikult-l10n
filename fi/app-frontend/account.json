@@ -1,0 +1,17 @@
+{
+  "account-control.accept.accepting": "Hyväksytään kutsua...",
+  "account-control.accept.success": "Kutsu hyväksytty!",
+  "account-control.accept.can-manage": "Voit nyt hallita tiliä: {email}",
+  "account-control.accept.redirecting": "Ohjataan asetuksiin...",
+  "account-control.accept.error": "Kutsun hyväksyminen epäonnistui",
+  "account-control.accept.error.default": "Kutsun hyväksyminen epäonnistui",
+  "account-control.accept.error.invalid": "Kutsu on virheellinen tai vanhentunut",
+  "account-control.accept.button.home": "Palaa etusivulle",
+  "account-switcher.badge.controlled": "Hallittu",
+  "account-switcher.badge.read-only": "Vain luku",
+  "account-switcher.menu.switch-account": "Vaihda tiliä",
+  "account-switcher.label.yours": "(Sinun)",
+  "account-switcher.label.controlled": "Hallitut tilit:",
+  "account-switcher.label.current": "(Nykyinen)",
+  "account-switcher.switching": "Vaihdetaan..."
+}

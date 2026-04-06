@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Рачун",
+    "proformaTitle": "Профактура",
+    "creditTitle": "Књижно Одобрење",
+    "series": "Серија",
+    "number": "Бр.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "РАЧУН",
+    "title_vat": "РАЧУН ПДВ",
+    "proforma_title": "ПРОФАКТУРА",
+    "credit_title": "КЊИЖНО ОДОБРЕЊЕ",
+    "series": "Серија",
+    "no": "Бр.",
+    "seller": "Продавац:",
+    "buyer": "Купац:",
+    "lineItemNo": "Рб.",
+    "lineItemName": "Назив услуге или артикла",
+    "lineItemUnit": "Јединица",
+    "lineItemPrice": "Цена ({C})",
+    "lineItemPriceWithoutVAT": "Цена без ПДВ ({C})",
+    "lineItemAmount": "Количина",
+    "lineItemVat": "ПДВ (%)",
+    "lineItemVatSum": "Износ ПДВ ({C})",
+    "lineItemSum": "Укупно ({C})",
+    "sumInWords": "Износ словима:",
+    "total": "Укупно",
+    "total_without_vat": "Укупно без ПДВ",
+    "vat": "ПДВ",
+    "alreadyPaid": "Плаћено",
+    "sumToPay": "За плаћање",
+    "invoiceIssuedBy": "Рачун издао"
+  }
+}

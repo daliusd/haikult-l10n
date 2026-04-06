@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Sąskaita - faktūra",
+    "proformaTitle": "Išankstinė sąskaita - faktūra",
+    "creditTitle": "Kreditinė sąskaita - faktūra",
+    "series": "Serija",
+    "number": "Nr",
+    "author": "{issuer} (per haiku.lt)"
+  },
+  "invoice": {
+    "title": "SĄSKAITA - FAKTŪRA",
+    "title_vat": "PVM SĄSKAITA - FAKTŪRA",
+    "proforma_title": "IŠANKSTINĖ SĄSKAITA FAKTŪRA",
+    "credit_title": "KREDITINĖ SĄSKAITA FAKTŪRA",
+    "series": "Serija",
+    "no": "Nr.",
+    "seller": "Pardavėjas:",
+    "buyer": "Pirkėjas:",
+    "lineItemNo": "Nr",
+    "lineItemName": "Paslaugos ar prekės pavadinimas",
+    "lineItemUnit": "Mato vnt.",
+    "lineItemPrice": "Kaina ({C})",
+    "lineItemPriceWithoutVAT": "Kaina be PVM ({C})",
+    "lineItemAmount": "Kiekis",
+    "lineItemVat": "PVM (%)",
+    "lineItemVatSum": "PVM suma ({C})",
+    "lineItemSum": "Suma ({C})",
+    "sumInWords": "Suma žodžiais:",
+    "total": "Iš viso",
+    "total_without_vat": "Iš viso be PVM",
+    "vat": "PVM",
+    "alreadyPaid": "Sumokėta",
+    "sumToPay": "Mokėti",
+    "invoiceIssuedBy": "Sąskaitą išrašė"
+  }
+}

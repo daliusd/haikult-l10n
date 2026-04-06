@@ -1,0 +1,19 @@
+{
+  "subject": "Lasku 🧾 {{invoiceNo}}",
+  "htmlFallback": "Tämä sähköposti vaatii HTML-yhteensopivan sähköpostiohjelman.",
+  "sentVia": "Lähetetty haiku.lt:n kautta",
+  "text": "Hei,\n\nLähetän laskun {{invoiceNo}} sinulle.\n\nYstävällisin terveisin,\n{{issuer}}",
+  "title": "Lasku",
+  "greeting": "Hei,",
+  "bodySimple": "Lähetän laskun <strong>{{invoiceNo}}</strong> sinulle.",
+  "bodyPrice": "Lähetän laskun <strong>{{invoiceNo}}</strong> summalle <strong>{{price}}</strong>.",
+  "regards": "Ystävällisin terveisin,",
+  "additionalInfo": "Lisätietoja:",
+  "additionalNote": "Lisähuomautus:",
+  "invoiceInfo": "Laskutiedot:",
+  "lineItemName": "Tuote",
+  "lineItemQty": "Määrä",
+  "lineItemUnitPrice": "Yksikköhinta",
+  "lineItemTotal": "Yhteensä",
+  "totalLabel": "Yhteensä:"
+}

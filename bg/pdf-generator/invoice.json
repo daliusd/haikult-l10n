@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Фактура",
+    "proformaTitle": "Проформа Фактура",
+    "creditTitle": "Кредитно Известие",
+    "series": "Серия",
+    "number": "№",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "ФАКТУРА",
+    "title_vat": "ФАКТУРА ДДС",
+    "proforma_title": "ПРОФОРМА ФАКТУРА",
+    "credit_title": "КРЕДИТНО ИЗВЕСТИЕ",
+    "series": "Серия",
+    "no": "№",
+    "seller": "Продавач:",
+    "buyer": "Купувач:",
+    "lineItemNo": "№",
+    "lineItemName": "Наименование на услуга или стока",
+    "lineItemUnit": "Мярка",
+    "lineItemPrice": "Цена ({C})",
+    "lineItemPriceWithoutVAT": "Цена без ДДС ({C})",
+    "lineItemAmount": "Количество",
+    "lineItemVat": "ДДС (%)",
+    "lineItemVatSum": "ДДС сума ({C})",
+    "lineItemSum": "Сума ({C})",
+    "sumInWords": "Сума с думи:",
+    "total": "Общо",
+    "total_without_vat": "Общо без ДДС",
+    "vat": "ДДС",
+    "alreadyPaid": "Платено",
+    "sumToPay": "За плащане",
+    "invoiceIssuedBy": "Фактура издадена от"
+  }
+}

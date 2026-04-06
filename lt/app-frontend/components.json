@@ -1,0 +1,17 @@
+{
+  "hooks.email-preview.sample-note": "Čia galite pridėti papildomą pranešimą prie el. laiško",
+  "hooks.email-preview.error.subject": "Klaida",
+  "hooks.email-preview.error.template-processing": "Klaida apdorojant šabloną: {message}",
+  "company-search.input.label": "Įmonės pavadinimas",
+  "company-search.input.description": "Ieškoma pagal Registrų Centro ir VMI duomenis.",
+  "company-search.table.header": "Įmonės pavadinimas",
+  "company-search.error": "Klaida ieškant įmonės.",
+  "company-search.info": "Įveskite bent dvi įmonės pavadinimo raides.",
+  "company-search.button.use": "Naudoti",
+  "onboarding-modal.title": "Sveiki! Nustatykime jūsų paskyrą",
+  "onboarding-modal.description": "Prieš pradedant, pasirinkite pageidaujamą kalbą, šalį, valiutą ir mokesčių nustatymus. Galėsite pakeisti vėliau nustatymuose.",
+  "onboarding-modal.language.label": "Kalba",
+  "onboarding-modal.country.label": "Šalis",
+  "onboarding-modal.currency.label": "Valiuta",
+  "onboarding-modal.button.continue": "Tęsti"
+}

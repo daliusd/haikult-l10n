@@ -1,0 +1,17 @@
+{
+  "hooks.email-preview.sample-note": "Puedes agregar un mensaje adicional al correo",
+  "hooks.email-preview.error.subject": "Error",
+  "hooks.email-preview.error.template-processing": "Error al procesar la plantilla: {message}",
+  "company-search.input.label": "Nombre de la empresa",
+  "company-search.input.description": "Búsqueda por datos del Centro de Registro y Autoridad Tributaria.",
+  "company-search.table.header": "Nombre de la empresa",
+  "company-search.error": "Error al buscar la empresa.",
+  "company-search.info": "Ingresa al menos dos letras del nombre de la empresa.",
+  "company-search.button.use": "Usar",
+  "onboarding-modal.title": "Elige tu idioma, país y moneda",
+  "onboarding-modal.description": "Antes de comenzar, por favor selecciona tu idioma, país y moneda preferidos. Puedes cambiarlos más tarde en configuración.",
+  "onboarding-modal.language.label": "Idioma",
+  "onboarding-modal.country.label": "País",
+  "onboarding-modal.currency.label": "Moneda",
+  "onboarding-modal.button.continue": "Continuar"
+}

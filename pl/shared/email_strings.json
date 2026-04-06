@@ -1,0 +1,19 @@
+{
+  "subject": "Faktura 🧾 {{invoiceNo}}",
+  "htmlFallback": "Ten e-mail wymaga klienta poczty obsługującego HTML.",
+  "sentVia": "Wysłano przez haiku.lt",
+  "text": "Witam,\n\nPrzesyłam fakturę {{invoiceNo}}.\n\nPozdrawiam,\n{{issuer}}",
+  "title": "Faktura",
+  "greeting": "Witam,",
+  "bodySimple": "Przesyłam fakturę <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Przesyłam fakturę <strong>{{invoiceNo}}</strong> na kwotę <strong>{{price}}</strong>.",
+  "regards": "Pozdrawiam,",
+  "additionalInfo": "Dodatkowe informacje:",
+  "additionalNote": "Dodatkowa uwaga:",
+  "invoiceInfo": "Informacje o fakturze:",
+  "lineItemName": "Pozycja",
+  "lineItemQty": "Ilość",
+  "lineItemUnitPrice": "Cena jedn.",
+  "lineItemTotal": "Razem",
+  "totalLabel": "Razem:"
+}

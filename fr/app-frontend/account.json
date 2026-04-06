@@ -1,0 +1,17 @@
+{
+  "account-control.accept.accepting": "Acceptation de l'invitation...",
+  "account-control.accept.success": "Invitation acceptée !",
+  "account-control.accept.can-manage": "Vous pouvez maintenant gérer le compte : {email}",
+  "account-control.accept.redirecting": "Redirection vers les paramètres...",
+  "account-control.accept.error": "Échec de l'acceptation de l'invitation",
+  "account-control.accept.error.default": "Échec de l'acceptation de l'invitation",
+  "account-control.accept.error.invalid": "L'invitation est invalide ou expirée",
+  "account-control.accept.button.home": "Retour à l'accueil",
+  "account-switcher.badge.controlled": "Géré",
+  "account-switcher.badge.read-only": "Lecture seule",
+  "account-switcher.menu.switch-account": "Changer de compte",
+  "account-switcher.label.yours": "(Le vôtre)",
+  "account-switcher.label.controlled": "Comptes gérés :",
+  "account-switcher.label.current": "(Actuel)",
+  "account-switcher.switching": "Changement en cours..."
+}

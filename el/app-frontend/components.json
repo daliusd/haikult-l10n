@@ -1,0 +1,17 @@
+{
+  "hooks.email-preview.sample-note": "Μπορείτε να προσθέσετε ένα επιπλέον μήνυμα στο email",
+  "hooks.email-preview.error.subject": "Σφάλμα",
+  "hooks.email-preview.error.template-processing": "Σφάλμα επεξεργασίας προτύπου: {message}",
+  "company-search.input.label": "Όνομα εταιρείας",
+  "company-search.input.description": "Αναζήτηση με βάση δεδομένα Κέντρου Μητρώου και Φορολογικής Αρχής.",
+  "company-search.table.header": "Όνομα εταιρείας",
+  "company-search.error": "Σφάλμα αναζήτησης εταιρείας.",
+  "company-search.info": "Εισάγετε τουλάχιστον δύο γράμματα του ονόματος της εταιρείας.",
+  "company-search.button.use": "Χρήση",
+  "onboarding-modal.title": "Επιλέξτε τη γλώσσα, τη χώρα και το νόμισμά σας",
+  "onboarding-modal.description": "Πριν ξεκινήσετε, επιλέξτε την προτιμώμενη γλώσσα, χώρα και νόμισμα. Μπορείτε να τα αλλάξετε αργότερα στις ρυθμίσεις.",
+  "onboarding-modal.language.label": "Γλώσσα",
+  "onboarding-modal.country.label": "Χώρα",
+  "onboarding-modal.currency.label": "Νόμισμα",
+  "onboarding-modal.button.continue": "Συνέχεια"
+}

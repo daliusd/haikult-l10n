@@ -1,0 +1,17 @@
+{
+  "hooks.email-preview.sample-note": "You can add an additional message to the email",
+  "hooks.email-preview.error.subject": "Error",
+  "hooks.email-preview.error.template-processing": "Error processing template: {message}",
+  "company-search.input.label": "Company name",
+  "company-search.input.description": "Searching by Register Centre and Tax Authority data.",
+  "company-search.table.header": "Company name",
+  "company-search.error": "Error searching for company.",
+  "company-search.info": "Enter at least two letters of the company name.",
+  "company-search.button.use": "Use",
+  "onboarding-modal.title": "Welcome! Let's set up your account",
+  "onboarding-modal.description": "Before getting started, please select your preferred language, country, currency, and tax settings. You can change these later in settings.",
+  "onboarding-modal.language.label": "Language",
+  "onboarding-modal.country.label": "Country",
+  "onboarding-modal.currency.label": "Currency",
+  "onboarding-modal.button.continue": "Continue"
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Τιμολόγιο",
+    "proformaTitle": "Προτιμολόγιο",
+    "creditTitle": "Πιστωτικό Τιμολόγιο",
+    "series": "Σειρά",
+    "number": "Αρ.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "ΤΙΜΟΛΟΓΙΟ",
+    "title_vat": "ΤΙΜΟΛΟΓΙΟ ΦΠΑ",
+    "proforma_title": "ΠΡΟΤΙΜΟΛΟΓΙΟ",
+    "credit_title": "ΠΙΣΤΩΤΙΚΟ ΤΙΜΟΛΟΓΙΟ",
+    "series": "Σειρά",
+    "no": "Αρ.",
+    "seller": "Πωλητής:",
+    "buyer": "Αγοραστής:",
+    "lineItemNo": "Α/Α",
+    "lineItemName": "Περιγραφή υπηρεσίας ή είδους",
+    "lineItemUnit": "Μονάδα",
+    "lineItemPrice": "Τιμή ({C})",
+    "lineItemPriceWithoutVAT": "Τιμή χωρίς ΦΠΑ ({C})",
+    "lineItemAmount": "Ποσότητα",
+    "lineItemVat": "ΦΠΑ (%)",
+    "lineItemVatSum": "Ποσό ΦΠΑ ({C})",
+    "lineItemSum": "Σύνολο ({C})",
+    "sumInWords": "Ποσό ολογράφως:",
+    "total": "Σύνολο",
+    "total_without_vat": "Σύνολο χωρίς ΦΠΑ",
+    "vat": "ΦΠΑ",
+    "alreadyPaid": "Πληρώθηκε",
+    "sumToPay": "Προς πληρωμή",
+    "invoiceIssuedBy": "Τιμολόγιο εκδόθηκε από"
+  }
+}

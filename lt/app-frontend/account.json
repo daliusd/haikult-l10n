@@ -1,0 +1,17 @@
+{
+  "account-control.accept.accepting": "Priimamas pakvietimas...",
+  "account-control.accept.success": "Pakvietimas priimtas!",
+  "account-control.accept.can-manage": "Dabar galite valdyti paskyrą: {email}",
+  "account-control.accept.redirecting": "Nukreipiama į nustatymus...",
+  "account-control.accept.error": "Nepavyko priimti pakvietimo",
+  "account-control.accept.error.default": "Nepavyko priimti pakvietimo",
+  "account-control.accept.error.invalid": "Pakvietimas negaliojantis arba pasibaigęs",
+  "account-control.accept.button.home": "Grįžti į pradžią",
+  "account-switcher.badge.controlled": "Kontroliuojama",
+  "account-switcher.badge.read-only": "Tik skaityti",
+  "account-switcher.menu.switch-account": "Perjungti paskyrą",
+  "account-switcher.label.yours": "(Jūsų)",
+  "account-switcher.label.controlled": "Kontroliuojamos:",
+  "account-switcher.label.current": "(Dabartinė)",
+  "account-switcher.switching": "Perjungiama..."
+}

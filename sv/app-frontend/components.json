@@ -1,0 +1,17 @@
+{
+  "hooks.email-preview.sample-note": "Du kan lägga till ett extra meddelande till e-postmeddelandet",
+  "hooks.email-preview.error.subject": "Fel",
+  "hooks.email-preview.error.template-processing": "Fel vid bearbetning av mall: {message}",
+  "company-search.input.label": "Företagsnamn",
+  "company-search.input.description": "Sökning baserad på uppgifter från registercentralen och skattemyndigheten.",
+  "company-search.table.header": "Företagsnamn",
+  "company-search.error": "Fel vid sökning efter företag.",
+  "company-search.info": "Ange minst två bokstäver av företagsnamnet.",
+  "company-search.button.use": "Använd",
+  "onboarding-modal.title": "Välj ditt språk, land och valuta",
+  "onboarding-modal.description": "Innan du börjar, vänligen välj ditt föredragna språk, land och valuta. Du kan ändra dessa senare i inställningarna.",
+  "onboarding-modal.language.label": "Språk",
+  "onboarding-modal.country.label": "Land",
+  "onboarding-modal.currency.label": "Valuta",
+  "onboarding-modal.button.continue": "Fortsätt"
+}

@@ -1,0 +1,19 @@
+{
+  "subject": "Rēķins 🧾 {{invoiceNo}}",
+  "htmlFallback": "Šim e-pastam nepieciešama HTML saderīga e-pasta programma.",
+  "sentVia": "Nosūtīts caur haiku.lt",
+  "text": "Sveiki,\n\nSūtu jums rēķinu {{invoiceNo}}.\n\nAr cieņu,\n{{issuer}}",
+  "title": "Rēķins",
+  "greeting": "Sveiki,",
+  "bodySimple": "Sūtu jums rēķinu <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Sūtu jums rēķinu <strong>{{invoiceNo}}</strong> par summu <strong>{{price}}</strong>.",
+  "regards": "Ar cieņu,",
+  "additionalInfo": "Papildu informācija:",
+  "additionalNote": "Papildu piezīme:",
+  "invoiceInfo": "Rēķina informācija:",
+  "lineItemName": "Prece",
+  "lineItemQty": "Daudzums",
+  "lineItemUnitPrice": "Vienības cena",
+  "lineItemTotal": "Kopā",
+  "totalLabel": "Kopā:"
+}

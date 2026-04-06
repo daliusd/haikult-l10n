@@ -1,0 +1,19 @@
+{
+  "subject": "Rechnung 🧾 {{invoiceNo}}",
+  "htmlFallback": "Dës E-Mail brauch en HTML-kompatibelen E-Mail-Client.",
+  "sentVia": "Geschéckt iwwer haiku.lt",
+  "text": "Moien,\n\nEch schécken Iech d'Rechnung {{invoiceNo}}.\n\nMat frëndleche Gréiss,\n{{issuer}}",
+  "title": "Rechnung",
+  "greeting": "Moien,",
+  "bodySimple": "Ech schécken Iech d'Rechnung <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Ech schécken Iech d'Rechnung <strong>{{invoiceNo}}</strong> iwwer <strong>{{price}}</strong>.",
+  "regards": "Mat frëndleche Gréiss,",
+  "additionalInfo": "Zousätzlech Informatioun:",
+  "additionalNote": "Zousätzlech Notiz:",
+  "invoiceInfo": "Rechnungsinformatioun:",
+  "lineItemName": "Artikel",
+  "lineItemQty": "Unzuel",
+  "lineItemUnitPrice": "Eenzelspräis",
+  "lineItemTotal": "Gesamt",
+  "totalLabel": "Gesamt:"
+}

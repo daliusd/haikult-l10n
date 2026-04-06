@@ -1,0 +1,19 @@
+{
+  "subject": "Anfoneb 🧾 {{invoiceNo}}",
+  "htmlFallback": "Mae'r e-bost hwn yn gofyn am gleient e-bost sy'n cydweddu â HTML.",
+  "sentVia": "Anfonwyd drwy haiku.lt",
+  "text": "Helo,\n\nRwy'n anfon yr anfoneb {{invoiceNo}} atoch.\n\nYn gywir,\n{{issuer}}",
+  "title": "Anfoneb",
+  "greeting": "Helo,",
+  "bodySimple": "Rwy'n anfon yr anfoneb <strong>{{invoiceNo}}</strong> atoch.",
+  "bodyPrice": "Rwy'n anfon yr anfoneb <strong>{{invoiceNo}}</strong> am swm o <strong>{{price}}</strong> atoch.",
+  "regards": "Yn gywir,",
+  "additionalInfo": "Gwybodaeth ychwanegol:",
+  "additionalNote": "Nodyn ychwanegol:",
+  "invoiceInfo": "Gwybodaeth anfoneb:",
+  "lineItemName": "Eitem",
+  "lineItemQty": "Nifer",
+  "lineItemUnitPrice": "Pris uned",
+  "lineItemTotal": "Cyfanswm",
+  "totalLabel": "Cyfanswm:"
+}

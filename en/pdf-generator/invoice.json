@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Invoice",
+    "proformaTitle": "Proforma Invoice",
+    "creditTitle": "Credit Invoice",
+    "series": "Series",
+    "number": "No",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "INVOICE",
+    "title_vat": "VAT INVOICE",
+    "proforma_title": "PROFORMA INVOICE",
+    "credit_title": "CREDIT INVOICE",
+    "series": "Series",
+    "no": "No.",
+    "seller": "Seller:",
+    "buyer": "Buyer:",
+    "lineItemNo": "No",
+    "lineItemName": "Service or item name",
+    "lineItemUnit": "Unit",
+    "lineItemPrice": "Price ({C})",
+    "lineItemPriceWithoutVAT": "Price without VAT ({C})",
+    "lineItemAmount": "Amount",
+    "lineItemVat": "VAT (%)",
+    "lineItemVatSum": "VAT sum ({C})",
+    "lineItemSum": "Sum ({C})",
+    "sumInWords": "Sum in words:",
+    "total": "Total",
+    "total_without_vat": "Total without VAT",
+    "vat": "VAT",
+    "alreadyPaid": "Paid",
+    "sumToPay": "Sum to pay",
+    "invoiceIssuedBy": "Invoice issued by"
+  }
+}

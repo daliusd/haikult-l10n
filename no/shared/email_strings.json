@@ -1,0 +1,19 @@
+{
+  "subject": "Faktura 🧾 {{invoiceNo}}",
+  "htmlFallback": "Denne e-posten krever en HTML-kompatibel e-postklient.",
+  "sentVia": "Sendt via haiku.lt",
+  "text": "Hei,\n\nJeg sender faktura {{invoiceNo}} til deg.\n\nMed vennlig hilsen,\n{{issuer}}",
+  "title": "Faktura",
+  "greeting": "Hei,",
+  "bodySimple": "Jeg sender faktura <strong>{{invoiceNo}}</strong> til deg.",
+  "bodyPrice": "Jeg sender faktura <strong>{{invoiceNo}}</strong> for et beløp på <strong>{{price}}</strong>.",
+  "regards": "Med vennlig hilsen,",
+  "additionalInfo": "Tilleggsinformasjon:",
+  "additionalNote": "Tilleggsnotat:",
+  "invoiceInfo": "Fakturainformasjon:",
+  "lineItemName": "Vare",
+  "lineItemQty": "Antall",
+  "lineItemUnitPrice": "Enhetspris",
+  "lineItemTotal": "Totalt",
+  "totalLabel": "Totalt:"
+}

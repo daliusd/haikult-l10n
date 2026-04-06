@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Facture",
+    "proformaTitle": "Facture Proforma",
+    "creditTitle": "Facture d'Avoir",
+    "series": "Série",
+    "number": "N°",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "FACTURE",
+    "title_vat": "FACTURE TVA",
+    "proforma_title": "FACTURE PROFORMA",
+    "credit_title": "FACTURE D'AVOIR",
+    "series": "Série",
+    "no": "N°",
+    "seller": "Vendeur :",
+    "buyer": "Acheteur :",
+    "lineItemNo": "N°",
+    "lineItemName": "Désignation du service ou article",
+    "lineItemUnit": "Unité",
+    "lineItemPrice": "Prix ({C})",
+    "lineItemPriceWithoutVAT": "Prix hors TVA ({C})",
+    "lineItemAmount": "Quantité",
+    "lineItemVat": "TVA (%)",
+    "lineItemVatSum": "Montant TVA ({C})",
+    "lineItemSum": "Total ({C})",
+    "sumInWords": "Montant en lettres :",
+    "total": "Total",
+    "total_without_vat": "Total hors TVA",
+    "vat": "TVA",
+    "alreadyPaid": "Payé",
+    "sumToPay": "Montant à payer",
+    "invoiceIssuedBy": "Facture émise par"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "hooks.email-preview.sample-note": "Sie können der E-Mail eine zusätzliche Nachricht hinzufügen",
+  "hooks.email-preview.error.subject": "Fehler",
+  "hooks.email-preview.error.template-processing": "Fehler beim Verarbeiten der Vorlage: {message}",
+  "company-search.input.label": "Firmenname",
+  "company-search.input.description": "Suche nach Registerzentrum und Steuerbehördendaten.",
+  "company-search.table.header": "Firmenname",
+  "company-search.error": "Fehler bei der Suche nach Firma.",
+  "company-search.info": "Geben Sie mindestens zwei Buchstaben des Firmennamens ein.",
+  "company-search.button.use": "Verwenden",
+  "onboarding-modal.title": "Wählen Sie Ihre Sprache, Land und Währung",
+  "onboarding-modal.description": "Bevor Sie beginnen, wählen Sie bitte Ihre bevorzugte Sprache, Ihr Land und Ihre Währung. Sie können diese später in den Einstellungen ändern.",
+  "onboarding-modal.language.label": "Sprache",
+  "onboarding-modal.country.label": "Land",
+  "onboarding-modal.currency.label": "Währung",
+  "onboarding-modal.button.continue": "Fortfahren"
+}

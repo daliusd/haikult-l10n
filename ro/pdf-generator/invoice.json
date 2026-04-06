@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Factură",
+    "proformaTitle": "Factură Proformă",
+    "creditTitle": "Factură de Creditare",
+    "series": "Serie",
+    "number": "Nr.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "FACTURĂ",
+    "title_vat": "FACTURĂ TVA",
+    "proforma_title": "FACTURĂ PROFORMĂ",
+    "credit_title": "FACTURĂ DE CREDITARE",
+    "series": "Serie",
+    "no": "Nr.",
+    "seller": "Vânzător:",
+    "buyer": "Cumpărător:",
+    "lineItemNo": "Nr.",
+    "lineItemName": "Denumirea serviciului sau articolului",
+    "lineItemUnit": "Unitate",
+    "lineItemPrice": "Preț ({C})",
+    "lineItemPriceWithoutVAT": "Preț fără TVA ({C})",
+    "lineItemAmount": "Cantitate",
+    "lineItemVat": "TVA (%)",
+    "lineItemVatSum": "Sumă TVA ({C})",
+    "lineItemSum": "Total ({C})",
+    "sumInWords": "Suma în cuvinte:",
+    "total": "Total",
+    "total_without_vat": "Total fără TVA",
+    "vat": "TVA",
+    "alreadyPaid": "Plătit",
+    "sumToPay": "De plată",
+    "invoiceIssuedBy": "Factura emisă de"
+  }
+}

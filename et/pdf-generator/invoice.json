@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Arve",
+    "proformaTitle": "Ettemaksuarve",
+    "creditTitle": "Kreeditarve",
+    "series": "Seeria",
+    "number": "Nr",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "ARVE",
+    "title_vat": "KM ARVE",
+    "proforma_title": "ETTEMAKSUARVE",
+    "credit_title": "KREEDITARVE",
+    "series": "Seeria",
+    "no": "Nr",
+    "seller": "Müüja:",
+    "buyer": "Ostja:",
+    "lineItemNo": "Nr",
+    "lineItemName": "Teenuse või kauba nimetus",
+    "lineItemUnit": "Ühik",
+    "lineItemPrice": "Hind ({C})",
+    "lineItemPriceWithoutVAT": "Hind ilma KM-ta ({C})",
+    "lineItemAmount": "Kogus",
+    "lineItemVat": "KM (%)",
+    "lineItemVatSum": "KM summa ({C})",
+    "lineItemSum": "Kokku ({C})",
+    "sumInWords": "Summa sõnadega:",
+    "total": "Kokku",
+    "total_without_vat": "Kokku ilma KM-ta",
+    "vat": "KM",
+    "alreadyPaid": "Makstud",
+    "sumToPay": "Tasumisele kuuluv summa",
+    "invoiceIssuedBy": "Arve koostaja"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "subject": "Számla 🧾 {{invoiceNo}}",
+  "htmlFallback": "Ez az email egy HTML-kompatibilis email klienst igényel.",
+  "sentVia": "Elküldve a haiku.lt-n keresztül",
+  "text": "Üdvözlöm,\n\nKüldom a {{invoiceNo}} számlát.\n\nÜdvözlettel,\n{{issuer}}",
+  "title": "Számla",
+  "greeting": "Üdvözlöm,",
+  "bodySimple": "Küldom a <strong>{{invoiceNo}}</strong> számlát.",
+  "bodyPrice": "Küldom a <strong>{{invoiceNo}}</strong> számlát <strong>{{price}}</strong> értékben.",
+  "regards": "Üdvözlettel,",
+  "additionalInfo": "További információk:",
+  "additionalNote": "További megjegyzés:",
+  "invoiceInfo": "Számla információk:",
+  "lineItemName": "Tétel",
+  "lineItemQty": "Menny.",
+  "lineItemUnitPrice": "Egységár",
+  "lineItemTotal": "Összesen",
+  "totalLabel": "Összesen:"
+}

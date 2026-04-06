@@ -1,0 +1,19 @@
+{
+  "subject": "Faturë 🧾 {{invoiceNo}}",
+  "htmlFallback": "Ky email kërkon një klient email të përputhshëm me HTML.",
+  "sentVia": "Dërguar përmes haiku.lt",
+  "text": "Përshëndetje,\n\nPo ju dërgoj faturën {{invoiceNo}}.\n\nMe respekt,\n{{issuer}}",
+  "title": "Faturë",
+  "greeting": "Përshëndetje,",
+  "bodySimple": "Po ju dërgoj faturën <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Po ju dërgoj faturën <strong>{{invoiceNo}}</strong> për shumën <strong>{{price}}</strong>.",
+  "regards": "Me respekt,",
+  "additionalInfo": "Informacion shtesë:",
+  "additionalNote": "Shënim shtesë:",
+  "invoiceInfo": "Informacioni i faturës:",
+  "lineItemName": "Artikulli",
+  "lineItemQty": "Sasia",
+  "lineItemUnitPrice": "Çmimi për njësi",
+  "lineItemTotal": "Totali",
+  "totalLabel": "Totali:"
+}

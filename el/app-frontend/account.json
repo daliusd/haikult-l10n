@@ -1,0 +1,17 @@
+{
+  "account-control.accept.accepting": "Γίνεται αποδοχή πρόσκλησης...",
+  "account-control.accept.success": "Η πρόσκληση έγινε αποδεκτή!",
+  "account-control.accept.can-manage": "Μπορείτε τώρα να διαχειριστείτε τον λογαριασμό: {email}",
+  "account-control.accept.redirecting": "Ανακατεύθυνση στις ρυθμίσεις...",
+  "account-control.accept.error": "Αποτυχία αποδοχής πρόσκλησης",
+  "account-control.accept.error.default": "Αποτυχία αποδοχής πρόσκλησης",
+  "account-control.accept.error.invalid": "Η πρόσκληση δεν είναι έγκυρη ή έχει λήξει",
+  "account-control.accept.button.home": "Επιστροφή στην Αρχική",
+  "account-switcher.badge.controlled": "Διαχειριζόμενος",
+  "account-switcher.badge.read-only": "Μόνο ανάγνωση",
+  "account-switcher.menu.switch-account": "Αλλαγή λογαριασμού",
+  "account-switcher.label.yours": "(Δικός σας)",
+  "account-switcher.label.controlled": "Διαχειριζόμενοι λογαριασμοί:",
+  "account-switcher.label.current": "(Τρέχων)",
+  "account-switcher.switching": "Γίνεται εναλλαγή..."
+}

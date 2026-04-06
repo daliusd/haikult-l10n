@@ -1,0 +1,17 @@
+{
+  "account-control.accept.accepting": "Aceitando convite...",
+  "account-control.accept.success": "Convite aceito!",
+  "account-control.accept.can-manage": "Você agora pode gerenciar a conta: {email}",
+  "account-control.accept.redirecting": "Redirecionando para configurações...",
+  "account-control.accept.error": "Falha ao aceitar convite",
+  "account-control.accept.error.default": "Falha ao aceitar convite",
+  "account-control.accept.error.invalid": "O convite é inválido ou expirou",
+  "account-control.accept.button.home": "Retornar ao Início",
+  "account-switcher.badge.controlled": "Gerenciada",
+  "account-switcher.badge.read-only": "Somente leitura",
+  "account-switcher.menu.switch-account": "Trocar conta",
+  "account-switcher.label.yours": "(Sua)",
+  "account-switcher.label.controlled": "Contas gerenciadas:",
+  "account-switcher.label.current": "(Atual)",
+  "account-switcher.switching": "Trocando..."
+}

@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Lasku",
+    "proformaTitle": "Proformalasku",
+    "creditTitle": "Hyvityslasku",
+    "series": "Sarja",
+    "number": "Nro",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "LASKU",
+    "title_vat": "ALV LASKU",
+    "proforma_title": "PROFORMALASKU",
+    "credit_title": "HYVITYSLASKU",
+    "series": "Sarja",
+    "no": "Nro",
+    "seller": "Myyjä:",
+    "buyer": "Ostaja:",
+    "lineItemNo": "Nro",
+    "lineItemName": "Palvelu tai tuote",
+    "lineItemUnit": "Yksikkö",
+    "lineItemPrice": "Hinta ({C})",
+    "lineItemPriceWithoutVAT": "Hinta ilman ALV ({C})",
+    "lineItemAmount": "Määrä",
+    "lineItemVat": "ALV (%)",
+    "lineItemVatSum": "ALV summa ({C})",
+    "lineItemSum": "Yhteensä ({C})",
+    "sumInWords": "Summa sanoina:",
+    "total": "Yhteensä",
+    "total_without_vat": "Yhteensä ilman ALV",
+    "vat": "ALV",
+    "alreadyPaid": "Maksettu",
+    "sumToPay": "Maksettava",
+    "invoiceIssuedBy": "Laskun laatija"
+  }
+}

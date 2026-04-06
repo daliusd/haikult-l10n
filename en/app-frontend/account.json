@@ -1,0 +1,17 @@
+{
+  "account-control.accept.accepting": "Accepting invitation...",
+  "account-control.accept.success": "Invitation accepted!",
+  "account-control.accept.can-manage": "You can now manage account: {email}",
+  "account-control.accept.redirecting": "Redirecting to settings...",
+  "account-control.accept.error": "Failed to accept invitation",
+  "account-control.accept.error.default": "Failed to accept invitation",
+  "account-control.accept.error.invalid": "Invitation is invalid or expired",
+  "account-control.accept.button.home": "Return to Home",
+  "account-switcher.badge.controlled": "Managed",
+  "account-switcher.badge.read-only": "Read-only",
+  "account-switcher.menu.switch-account": "Switch account",
+  "account-switcher.label.yours": "(Yours)",
+  "account-switcher.label.controlled": "Managed accounts:",
+  "account-switcher.label.current": "(Current)",
+  "account-switcher.switching": "Switching..."
+}

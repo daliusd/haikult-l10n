@@ -1,0 +1,19 @@
+{
+  "subject": "Račun 🧾 {{invoiceNo}}",
+  "htmlFallback": "Ta e-pošta zahteva odjemalca, ki podpira HTML.",
+  "sentVia": "Poslano prek haiku.lt",
+  "text": "Pozdravljeni,\n\nPošiljam vam račun {{invoiceNo}}.\n\nLepo pozdravljeni,\n{{issuer}}",
+  "title": "Račun",
+  "greeting": "Pozdravljeni,",
+  "bodySimple": "Pošiljam vam račun <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Pošiljam vam račun <strong>{{invoiceNo}}</strong> v višini <strong>{{price}}</strong>.",
+  "regards": "Lepo pozdravljeni,",
+  "additionalInfo": "Dodatne informacije:",
+  "additionalNote": "Dodatna opomba:",
+  "invoiceInfo": "Informacije o računu:",
+  "lineItemName": "Postavka",
+  "lineItemQty": "Količ.",
+  "lineItemUnitPrice": "Cena na enoto",
+  "lineItemTotal": "Skupaj",
+  "totalLabel": "Skupaj:"
+}

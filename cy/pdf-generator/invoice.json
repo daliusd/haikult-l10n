@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Anfoneb",
+    "proformaTitle": "Anfoneb Ffurfiol",
+    "creditTitle": "Anfoneb Credyd",
+    "series": "Cyfres",
+    "number": "Rhif",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "ANFONEB",
+    "title_vat": "ANFONEB TAW",
+    "proforma_title": "ANFONEB FFURFIOL",
+    "credit_title": "ANFONEB CREDYD",
+    "series": "Cyfres",
+    "no": "Rhif",
+    "seller": "Gwerthwr:",
+    "buyer": "Prynwr:",
+    "lineItemNo": "Rhif",
+    "lineItemName": "Disgrifiad o wasanaeth neu eitem",
+    "lineItemUnit": "Uned",
+    "lineItemPrice": "Pris ({C})",
+    "lineItemPriceWithoutVAT": "Pris heb TAW ({C})",
+    "lineItemAmount": "Swm",
+    "lineItemVat": "TAW (%)",
+    "lineItemVatSum": "Swm TAW ({C})",
+    "lineItemSum": "Cyfanswm ({C})",
+    "sumInWords": "Swm mewn geiriau:",
+    "total": "Cyfanswm",
+    "total_without_vat": "Cyfanswm heb TAW",
+    "vat": "TAW",
+    "alreadyPaid": "Talwyd",
+    "sumToPay": "I'w dalu",
+    "invoiceIssuedBy": "Anfoneb a gyhoeddwyd gan"
+  }
+}

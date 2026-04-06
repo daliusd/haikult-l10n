@@ -1,0 +1,17 @@
+{
+  "account-control.accept.accepting": "Accepterar inbjudan...",
+  "account-control.accept.success": "Inbjudan accepterad!",
+  "account-control.accept.can-manage": "Du kan nu hantera konto: {email}",
+  "account-control.accept.redirecting": "Omdirigerar till inställningar...",
+  "account-control.accept.error": "Det gick inte att acceptera inbjudan",
+  "account-control.accept.error.default": "Det gick inte att acceptera inbjudan",
+  "account-control.accept.error.invalid": "Inbjudan är ogiltig eller har gått ut",
+  "account-control.accept.button.home": "Återgå till startsidan",
+  "account-switcher.badge.controlled": "Hanterat",
+  "account-switcher.badge.read-only": "Skrivskyddad",
+  "account-switcher.menu.switch-account": "Byt konto",
+  "account-switcher.label.yours": "(Ditt)",
+  "account-switcher.label.controlled": "Hanterade konton:",
+  "account-switcher.label.current": "(Aktuellt)",
+  "account-switcher.switching": "Byter..."
+}

@@ -1,0 +1,17 @@
+{
+  "hooks.email-preview.sample-note": "Du kan tilføje en ekstra besked til e-mailen",
+  "hooks.email-preview.error.subject": "Fejl",
+  "hooks.email-preview.error.template-processing": "Fejl ved behandling af skabelon: {message}",
+  "company-search.input.label": "Firmanavn",
+  "company-search.input.description": "Søger i Registercenter og Skattemyndighedens data.",
+  "company-search.table.header": "Firmanavn",
+  "company-search.error": "Fejl ved søgning efter firma.",
+  "company-search.info": "Indtast mindst to bogstaver af firmanavnet.",
+  "company-search.button.use": "Brug",
+  "onboarding-modal.title": "Vælg dit sprog, land og valuta",
+  "onboarding-modal.description": "Før du går i gang, skal du vælge dit foretrukne sprog, land og valuta. Du kan ændre disse senere i indstillinger.",
+  "onboarding-modal.language.label": "Sprog",
+  "onboarding-modal.country.label": "Land",
+  "onboarding-modal.currency.label": "Valuta",
+  "onboarding-modal.button.continue": "Fortsæt"
+}

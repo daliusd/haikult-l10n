@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Reikningur",
+    "proformaTitle": "Formreikningur",
+    "creditTitle": "Kreditreikningur",
+    "series": "Röð",
+    "number": "Nr.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "REIKNINGUR",
+    "title_vat": "VSK REIKNINGUR",
+    "proforma_title": "FORMREIKNINGUR",
+    "credit_title": "KREDITREIKNINGUR",
+    "series": "Röð",
+    "no": "Nr.",
+    "seller": "Seljandi:",
+    "buyer": "Kaupandi:",
+    "lineItemNo": "Nr.",
+    "lineItemName": "Lýsing þjónustu eða vöru",
+    "lineItemUnit": "Eining",
+    "lineItemPrice": "Verð ({C})",
+    "lineItemPriceWithoutVAT": "Verð án VSK ({C})",
+    "lineItemAmount": "Magn",
+    "lineItemVat": "VSK (%)",
+    "lineItemVatSum": "VSK upphæð ({C})",
+    "lineItemSum": "Samtals ({C})",
+    "sumInWords": "Upphæð í orðum:",
+    "total": "Samtals",
+    "total_without_vat": "Samtals án VSK",
+    "vat": "VSK",
+    "alreadyPaid": "Greitt",
+    "sumToPay": "Til greiðslu",
+    "invoiceIssuedBy": "Reikningur gefinn út af"
+  }
+}

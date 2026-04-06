@@ -1,0 +1,19 @@
+{
+  "subject": "Faktura 🧾 {{invoiceNo}}",
+  "htmlFallback": "Tento e-mail vyžaduje klienta podporujícího HTML.",
+  "sentVia": "Odesláno prostřednictvím haiku.lt",
+  "text": "Dobrý den,\n\nPosílám vám fakturu {{invoiceNo}}.\n\nS pozdravem,\n{{issuer}}",
+  "title": "Faktura",
+  "greeting": "Dobrý den,",
+  "bodySimple": "Posílám vám fakturu <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Posílám vám fakturu <strong>{{invoiceNo}}</strong> na částku <strong>{{price}}</strong>.",
+  "regards": "S pozdravem,",
+  "additionalInfo": "Další informace:",
+  "additionalNote": "Další poznámka:",
+  "invoiceInfo": "Informace o faktuře:",
+  "lineItemName": "Položka",
+  "lineItemQty": "Množství",
+  "lineItemUnitPrice": "Jedn. cena",
+  "lineItemTotal": "Celkem",
+  "totalLabel": "Celkem:"
+}

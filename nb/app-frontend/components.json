@@ -1,0 +1,17 @@
+{
+  "hooks.email-preview.sample-note": "Du kan legge til en tilleggsmelding i e-posten",
+  "hooks.email-preview.error.subject": "Feil",
+  "hooks.email-preview.error.template-processing": "Feil ved behandling av mal: {message}",
+  "company-search.input.label": "Selskapsnavn",
+  "company-search.input.description": "Søker etter data fra registersenter og skattemyndighet.",
+  "company-search.table.header": "Selskapsnavn",
+  "company-search.error": "Feil ved søk etter selskap.",
+  "company-search.info": "Oppgi minst to bokstaver i selskapsnavnet.",
+  "company-search.button.use": "Bruk",
+  "onboarding-modal.title": "Velg ditt språk, land og valuta",
+  "onboarding-modal.description": "Før du kommer i gang, vennligst velg foretrukket språk, land og valuta. Du kan endre disse senere i innstillingene.",
+  "onboarding-modal.language.label": "Språk",
+  "onboarding-modal.country.label": "Land",
+  "onboarding-modal.currency.label": "Valuta",
+  "onboarding-modal.button.continue": "Fortsett"
+}

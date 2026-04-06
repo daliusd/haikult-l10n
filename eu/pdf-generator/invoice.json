@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Faktura",
+    "proformaTitle": "Proforma Faktura",
+    "creditTitle": "Kreditu Faktura",
+    "series": "Serie",
+    "number": "Zenb.",
+    "author": "{issuer} (haiku.lt bidez)"
+  },
+  "invoice": {
+    "title": "FAKTURA",
+    "title_vat": "BEZ FAKTURA",
+    "proforma_title": "PROFORMA FAKTURA",
+    "credit_title": "KREDITU FAKTURA",
+    "series": "Serie",
+    "no": "Zenb.",
+    "seller": "Saltzailea:",
+    "buyer": "Eroslea:",
+    "lineItemNo": "Zenb.",
+    "lineItemName": "Zerbitzu edo artikuluaren izena",
+    "lineItemUnit": "Unitatea",
+    "lineItemPrice": "Prezioa ({C})",
+    "lineItemPriceWithoutVAT": "Prezioa BEZik gabe ({C})",
+    "lineItemAmount": "Kopurua",
+    "lineItemVat": "BEZ (%)",
+    "lineItemVatSum": "BEZ zenbatekoa ({C})",
+    "lineItemSum": "Guztira ({C})",
+    "sumInWords": "Hitzez adierazitako zenbatekoa:",
+    "total": "Guztira",
+    "total_without_vat": "Guztira BEZik gabe",
+    "vat": "BEZ",
+    "alreadyPaid": "Ordainduta",
+    "sumToPay": "Ordaintzeko",
+    "invoiceIssuedBy": "Faktura jaulkitzailea"
+  }
+}

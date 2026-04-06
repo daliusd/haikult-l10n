@@ -1,0 +1,19 @@
+{
+  "subject": "Фактура 🧾 {{invoiceNo}}",
+  "htmlFallback": "Този имейл изисква клиент, съвместим с HTML.",
+  "sentVia": "Изпратено чрез haiku.lt",
+  "text": "Здравейте,\n\nИзпращам ви фактура {{invoiceNo}}.\n\nС уважение,\n{{issuer}}",
+  "title": "Фактура",
+  "greeting": "Здравейте,",
+  "bodySimple": "Изпращам ви фактура <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Изпращам ви фактура <strong>{{invoiceNo}}</strong> на стойност <strong>{{price}}</strong>.",
+  "regards": "С уважение,",
+  "additionalInfo": "Допълнителна информация:",
+  "additionalNote": "Допълнителна бележка:",
+  "invoiceInfo": "Информация за фактурата:",
+  "lineItemName": "Артикул",
+  "lineItemQty": "Кол.",
+  "lineItemUnitPrice": "Ед. цена",
+  "lineItemTotal": "Общо",
+  "totalLabel": "Общо:"
+}

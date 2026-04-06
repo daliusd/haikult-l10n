@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Faktura",
+    "proformaTitle": "Faktura Proforma",
+    "creditTitle": "Faktura Korygująca",
+    "series": "Seria",
+    "number": "Nr",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "FAKTURA",
+    "title_vat": "FAKTURA VAT",
+    "proforma_title": "FAKTURA PROFORMA",
+    "credit_title": "FAKTURA KORYGUJĄCA",
+    "series": "Seria",
+    "no": "Nr",
+    "seller": "Sprzedawca:",
+    "buyer": "Nabywca:",
+    "lineItemNo": "Lp.",
+    "lineItemName": "Nazwa usługi lub towaru",
+    "lineItemUnit": "Jedn.",
+    "lineItemPrice": "Cena ({C})",
+    "lineItemPriceWithoutVAT": "Cena netto ({C})",
+    "lineItemAmount": "Ilość",
+    "lineItemVat": "VAT (%)",
+    "lineItemVatSum": "Kwota VAT ({C})",
+    "lineItemSum": "Wartość ({C})",
+    "sumInWords": "Słownie:",
+    "total": "Razem",
+    "total_without_vat": "Razem netto",
+    "vat": "VAT",
+    "alreadyPaid": "Zapłacono",
+    "sumToPay": "Do zapłaty",
+    "invoiceIssuedBy": "Fakturę wystawił"
+  }
+}

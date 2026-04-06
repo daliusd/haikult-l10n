@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Faturë",
+    "proformaTitle": "Faturë Proformë",
+    "creditTitle": "Faturë Kreditimi",
+    "series": "Seria",
+    "number": "Nr.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "FATURË",
+    "title_vat": "FATURË TVSH",
+    "proforma_title": "FATURË PROFORMË",
+    "credit_title": "FATURË KREDITIMI",
+    "series": "Seria",
+    "no": "Nr.",
+    "seller": "Shitësi:",
+    "buyer": "Blerësi:",
+    "lineItemNo": "Nr.",
+    "lineItemName": "Emërtimi i shërbimit ose artikullit",
+    "lineItemUnit": "Njësia",
+    "lineItemPrice": "Çmimi ({C})",
+    "lineItemPriceWithoutVAT": "Çmimi pa TVSH ({C})",
+    "lineItemAmount": "Sasia",
+    "lineItemVat": "TVSH (%)",
+    "lineItemVatSum": "Shuma TVSH ({C})",
+    "lineItemSum": "Totali ({C})",
+    "sumInWords": "Shuma me fjalë:",
+    "total": "Totali",
+    "total_without_vat": "Totali pa TVSH",
+    "vat": "TVSH",
+    "alreadyPaid": "Paguar",
+    "sumToPay": "Për t'u paguar",
+    "invoiceIssuedBy": "Faturë e lëshuar nga"
+  }
+}

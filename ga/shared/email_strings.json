@@ -1,0 +1,19 @@
+{
+  "subject": "Sonrasc 🧾 {{invoiceNo}}",
+  "htmlFallback": "Teastaíonn cliant ríomhphoist atá comhoiriúnach le HTML chun an ríomhphost seo a léamh.",
+  "sentVia": "Seolta trí haiku.lt",
+  "text": "Dia dhuit,\n\nTá mé ag seoladh an tsonrasc {{invoiceNo}} chugat.\n\nLe meas,\n{{issuer}}",
+  "title": "Sonrasc",
+  "greeting": "Dia dhuit,",
+  "bodySimple": "Tá mé ag seoladh an tsonrasc <strong>{{invoiceNo}}</strong> chugat.",
+  "bodyPrice": "Tá mé ag seoladh an tsonrasc <strong>{{invoiceNo}}</strong> ar <strong>{{price}}</strong> chugat.",
+  "regards": "Le meas,",
+  "additionalInfo": "Eolas breise:",
+  "additionalNote": "Nóta breise:",
+  "invoiceInfo": "Eolas faoin sonrasc:",
+  "lineItemName": "Mír",
+  "lineItemQty": "Cainníocht",
+  "lineItemUnitPrice": "Praghas aonaid",
+  "lineItemTotal": "Iomlán",
+  "totalLabel": "Iomlán:"
+}

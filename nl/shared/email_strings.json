@@ -1,0 +1,19 @@
+{
+  "subject": "Factuur 🧾 {{invoiceNo}}",
+  "htmlFallback": "Deze e-mail vereist een HTML-compatibele e-mailclient.",
+  "sentVia": "Verzonden via haiku.lt",
+  "text": "Hallo,\n\nIk stuur u de factuur {{invoiceNo}}.\n\nMet vriendelijke groet,\n{{issuer}}",
+  "title": "Factuur",
+  "greeting": "Hallo,",
+  "bodySimple": "Ik stuur u de factuur <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Ik stuur u de factuur <strong>{{invoiceNo}}</strong> voor een bedrag van <strong>{{price}}</strong>.",
+  "regards": "Met vriendelijke groet,",
+  "additionalInfo": "Aanvullende informatie:",
+  "additionalNote": "Aanvullende opmerking:",
+  "invoiceInfo": "Factuurinformatie:",
+  "lineItemName": "Artikel",
+  "lineItemQty": "Aantal",
+  "lineItemUnitPrice": "Eenheidsprijs",
+  "lineItemTotal": "Totaal",
+  "totalLabel": "Totaal:"
+}

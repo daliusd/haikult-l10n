@@ -1,0 +1,19 @@
+{
+  "subject": "Reikningur 🧾 {{invoiceNo}}",
+  "htmlFallback": "Þessi tölvupóstur krefst HTML-samhæfs póstforrits.",
+  "sentVia": "Sent í gegnum haiku.lt",
+  "text": "Halló,\n\nÉg er að senda þér reikning {{invoiceNo}}.\n\nBestu kveðjur,\n{{issuer}}",
+  "title": "Reikningur",
+  "greeting": "Halló,",
+  "bodySimple": "Ég er að senda þér reikning <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Ég er að senda þér reikning <strong>{{invoiceNo}}</strong> að upphæð <strong>{{price}}</strong>.",
+  "regards": "Bestu kveðjur,",
+  "additionalInfo": "Viðbótarupplýsingar:",
+  "additionalNote": "Viðbótarathugasemd:",
+  "invoiceInfo": "Upplýsingar um reikning:",
+  "lineItemName": "Vara",
+  "lineItemQty": "Magn",
+  "lineItemUnitPrice": "Einingarverð",
+  "lineItemTotal": "Samtals",
+  "totalLabel": "Samtals:"
+}

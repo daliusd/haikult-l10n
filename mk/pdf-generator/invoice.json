@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Фактура",
+    "proformaTitle": "Профактура",
+    "creditTitle": "Кредитна Фактура",
+    "series": "Серија",
+    "number": "Бр.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "ФАКТУРА",
+    "title_vat": "ФАКТУРА ДДВ",
+    "proforma_title": "ПРОФАКТУРА",
+    "credit_title": "КРЕДИТНА ФАКТУРА",
+    "series": "Серија",
+    "no": "Бр.",
+    "seller": "Продавач:",
+    "buyer": "Купувач:",
+    "lineItemNo": "Бр.",
+    "lineItemName": "Назив на услуга или артикал",
+    "lineItemUnit": "Единица",
+    "lineItemPrice": "Цена ({C})",
+    "lineItemPriceWithoutVAT": "Цена без ДДВ ({C})",
+    "lineItemAmount": "Количина",
+    "lineItemVat": "ДДВ (%)",
+    "lineItemVatSum": "Износ ДДВ ({C})",
+    "lineItemSum": "Вкупно ({C})",
+    "sumInWords": "Износ со зборови:",
+    "total": "Вкупно",
+    "total_without_vat": "Вкупно без ДДВ",
+    "vat": "ДДВ",
+    "alreadyPaid": "Платено",
+    "sumToPay": "За плаќање",
+    "invoiceIssuedBy": "Фактура издадена од"
+  }
+}

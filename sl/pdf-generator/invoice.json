@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Račun",
+    "proformaTitle": "Predračun",
+    "creditTitle": "Dobropis",
+    "series": "Serija",
+    "number": "Št.",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "RAČUN",
+    "title_vat": "RAČUN DDV",
+    "proforma_title": "PREDRAČUN",
+    "credit_title": "DOBROPIS",
+    "series": "Serija",
+    "no": "Št.",
+    "seller": "Prodajalec:",
+    "buyer": "Kupec:",
+    "lineItemNo": "Zap. št.",
+    "lineItemName": "Naziv storitve ali artikla",
+    "lineItemUnit": "Enota",
+    "lineItemPrice": "Cena ({C})",
+    "lineItemPriceWithoutVAT": "Cena brez DDV ({C})",
+    "lineItemAmount": "Količina",
+    "lineItemVat": "DDV (%)",
+    "lineItemVatSum": "Znesek DDV ({C})",
+    "lineItemSum": "Skupaj ({C})",
+    "sumInWords": "Znesek z besedo:",
+    "total": "Skupaj",
+    "total_without_vat": "Skupaj brez DDV",
+    "vat": "DDV",
+    "alreadyPaid": "Plačano",
+    "sumToPay": "Za plačilo",
+    "invoiceIssuedBy": "Račun izdal"
+  }
+}

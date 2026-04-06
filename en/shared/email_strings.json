@@ -1,0 +1,19 @@
+{
+  "subject": "Invoice 🧾 {{invoiceNo}}",
+  "htmlFallback": "This email requires an HTML capable email client.",
+  "sentVia": "Sent via haiku.lt",
+  "text": "Hello,\n\nI am sending the invoice {{invoiceNo}} for you.\n\nBest regards,\n{{issuer}}",
+  "title": "Invoice",
+  "greeting": "Hello,",
+  "bodySimple": "I am sending the invoice <strong>{{invoiceNo}}</strong> for you.",
+  "bodyPrice": "I am sending the invoice <strong>{{invoiceNo}}</strong> for the amount of <strong>{{price}}</strong>.",
+  "regards": "Best regards,",
+  "additionalInfo": "Additional Information:",
+  "additionalNote": "Additional Note:",
+  "invoiceInfo": "Invoice Information:",
+  "lineItemName": "Item",
+  "lineItemQty": "Qty",
+  "lineItemUnitPrice": "Unit price",
+  "lineItemTotal": "Total",
+  "totalLabel": "Total:"
+}

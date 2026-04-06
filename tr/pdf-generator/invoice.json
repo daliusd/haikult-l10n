@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "invoiceTitle": "Fatura",
+    "proformaTitle": "Proforma Fatura",
+    "creditTitle": "İade Faturası",
+    "series": "Seri",
+    "number": "No",
+    "author": "{issuer} (via haiku.lt)"
+  },
+  "invoice": {
+    "title": "FATURA",
+    "title_vat": "KDV FATURASI",
+    "proforma_title": "PROFORMA FATURA",
+    "credit_title": "İADE FATURASI",
+    "series": "Seri",
+    "no": "No",
+    "seller": "Satıcı:",
+    "buyer": "Alıcı:",
+    "lineItemNo": "Sıra",
+    "lineItemName": "Hizmet veya ürün adı",
+    "lineItemUnit": "Birim",
+    "lineItemPrice": "Fiyat ({C})",
+    "lineItemPriceWithoutVAT": "KDV hariç fiyat ({C})",
+    "lineItemAmount": "Miktar",
+    "lineItemVat": "KDV (%)",
+    "lineItemVatSum": "KDV tutarı ({C})",
+    "lineItemSum": "Toplam ({C})",
+    "sumInWords": "Yazıyla tutar:",
+    "total": "Toplam",
+    "total_without_vat": "KDV hariç toplam",
+    "vat": "KDV",
+    "alreadyPaid": "Ödenen",
+    "sumToPay": "Ödenecek tutar",
+    "invoiceIssuedBy": "Faturayı düzenleyen"
+  }
+}

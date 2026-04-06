@@ -1,0 +1,19 @@
+{
+  "subject": "Factură 🧾 {{invoiceNo}}",
+  "htmlFallback": "Acest e-mail necesită un client de e-mail compatibil HTML.",
+  "sentVia": "Trimis prin haiku.lt",
+  "text": "Bună ziua,\n\nVă trimit factura {{invoiceNo}}.\n\nCu stimă,\n{{issuer}}",
+  "title": "Factură",
+  "greeting": "Bună ziua,",
+  "bodySimple": "Vă trimit factura <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Vă trimit factura <strong>{{invoiceNo}}</strong> în valoare de <strong>{{price}}</strong>.",
+  "regards": "Cu stimă,",
+  "additionalInfo": "Informații suplimentare:",
+  "additionalNote": "Notă suplimentară:",
+  "invoiceInfo": "Informații factură:",
+  "lineItemName": "Articol",
+  "lineItemQty": "Cant.",
+  "lineItemUnitPrice": "Preț unitar",
+  "lineItemTotal": "Total",
+  "totalLabel": "Total:"
+}

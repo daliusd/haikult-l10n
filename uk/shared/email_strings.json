@@ -1,0 +1,19 @@
+{
+  "subject": "Рахунок 🧾 {{invoiceNo}}",
+  "htmlFallback": "Цей електронний лист вимагає клієнта електронної пошти, сумісного з HTML.",
+  "sentVia": "Надіслано через haiku.lt",
+  "text": "Вітаю,\n\nНадсилаю вам рахунок {{invoiceNo}}.\n\nЗ повагою,\n{{issuer}}",
+  "title": "Рахунок",
+  "greeting": "Вітаю,",
+  "bodySimple": "Надсилаю вам рахунок <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Надсилаю вам рахунок <strong>{{invoiceNo}}</strong> на суму <strong>{{price}}</strong>.",
+  "regards": "З повагою,",
+  "additionalInfo": "Додаткова інформація:",
+  "additionalNote": "Додаткова примітка:",
+  "invoiceInfo": "Інформація про рахунок:",
+  "lineItemName": "Найменування",
+  "lineItemQty": "Кільк.",
+  "lineItemUnitPrice": "Ціна за од.",
+  "lineItemTotal": "Разом",
+  "totalLabel": "Разом:"
+}

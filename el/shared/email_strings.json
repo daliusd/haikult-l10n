@@ -1,0 +1,19 @@
+{
+  "subject": "Τιμολόγιο 🧾 {{invoiceNo}}",
+  "htmlFallback": "Αυτό το email απαιτεί πρόγραμμα email συμβατό με HTML.",
+  "sentVia": "Στάλθηκε μέσω haiku.lt",
+  "text": "Γεια σας,\n\nΣας στέλνω το τιμολόγιο {{invoiceNo}}.\n\nΜε εκτίμηση,\n{{issuer}}",
+  "title": "Τιμολόγιο",
+  "greeting": "Γεια σας,",
+  "bodySimple": "Σας στέλνω το τιμολόγιο <strong>{{invoiceNo}}</strong>.",
+  "bodyPrice": "Σας στέλνω το τιμολόγιο <strong>{{invoiceNo}}</strong> για το ποσό των <strong>{{price}}</strong>.",
+  "regards": "Με εκτίμηση,",
+  "additionalInfo": "Πρόσθετες πληροφορίες:",
+  "additionalNote": "Πρόσθετη σημείωση:",
+  "invoiceInfo": "Πληροφορίες τιμολογίου:",
+  "lineItemName": "Είδος",
+  "lineItemQty": "Ποσ.",
+  "lineItemUnitPrice": "Τιμή μονάδας",
+  "lineItemTotal": "Σύνολο",
+  "totalLabel": "Σύνολο:"
+}

@@ -1,0 +1,17 @@
+{
+  "hooks.email-preview.sample-note": "U kunt een extra bericht toevoegen aan de e-mail",
+  "hooks.email-preview.error.subject": "Fout",
+  "hooks.email-preview.error.template-processing": "Fout bij verwerken sjabloon: {message}",
+  "company-search.input.label": "Bedrijfsnaam",
+  "company-search.input.description": "Zoeken op basis van Register Centrum en Belastingdienst gegevens.",
+  "company-search.table.header": "Bedrijfsnaam",
+  "company-search.error": "Fout bij zoeken naar bedrijf.",
+  "company-search.info": "Voer minimaal twee letters van de bedrijfsnaam in.",
+  "company-search.button.use": "Gebruiken",
+  "onboarding-modal.title": "Kies uw taal, land en valuta",
+  "onboarding-modal.description": "Selecteer voordat u begint uw voorkeurstaal, land en valuta. U kunt deze later wijzigen in de instellingen.",
+  "onboarding-modal.language.label": "Taal",
+  "onboarding-modal.country.label": "Land",
+  "onboarding-modal.currency.label": "Valuta",
+  "onboarding-modal.button.continue": "Doorgaan"
+}
