@@ -31,6 +31,8 @@
     "vat": "ДДВ",
     "alreadyPaid": "Платено",
     "sumToPay": "За плаќање",
-    "invoiceIssuedBy": "Фактура издадена од"
+    "invoiceIssuedBy": "Фактура издадена од",
+    "company_code": "Матичен број",
+    "vat_code": "ДДВ број"
   }
 }

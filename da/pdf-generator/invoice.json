@@ -31,6 +31,8 @@
     "vat": "Moms",
     "alreadyPaid": "Betalt",
     "sumToPay": "At betale",
-    "invoiceIssuedBy": "Faktura udstedt af"
+    "invoiceIssuedBy": "Faktura udstedt af",
+    "company_code": "Firmanummer",
+    "vat_code": "Momsnummer"
   }
 }

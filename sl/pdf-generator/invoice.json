@@ -31,6 +31,8 @@
     "vat": "DDV",
     "alreadyPaid": "Plačano",
     "sumToPay": "Za plačilo",
-    "invoiceIssuedBy": "Račun izdal"
+    "invoiceIssuedBy": "Račun izdal",
+    "company_code": "Matična številka",
+    "vat_code": "ID za DDV"
   }
 }

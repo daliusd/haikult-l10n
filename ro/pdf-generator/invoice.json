@@ -31,6 +31,8 @@
     "vat": "TVA",
     "alreadyPaid": "Plătit",
     "sumToPay": "De plată",
-    "invoiceIssuedBy": "Factura emisă de"
+    "invoiceIssuedBy": "Factura emisă de",
+    "company_code": "Cod fiscal",
+    "vat_code": "Cod TVA"
   }
 }

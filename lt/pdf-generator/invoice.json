@@ -31,6 +31,8 @@
     "vat": "PVM",
     "alreadyPaid": "Sumokėta",
     "sumToPay": "Mokėti",
-    "invoiceIssuedBy": "Sąskaitą išrašė"
+    "invoiceIssuedBy": "Sąskaitą išrašė",
+    "company_code": "Įmonės kodas",
+    "vat_code": "PVM kodas"
   }
 }

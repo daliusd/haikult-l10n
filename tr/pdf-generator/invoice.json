@@ -31,6 +31,8 @@
     "vat": "KDV",
     "alreadyPaid": "Ödenen",
     "sumToPay": "Ödenecek tutar",
-    "invoiceIssuedBy": "Faturayı düzenleyen"
+    "invoiceIssuedBy": "Faturayı düzenleyen",
+    "company_code": "Şirket kodu",
+    "vat_code": "KDV numarası"
   }
 }

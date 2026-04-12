@@ -31,6 +31,8 @@
     "vat": "MVA",
     "alreadyPaid": "Betalt",
     "sumToPay": "Å betale",
-    "invoiceIssuedBy": "Faktura utstedt av"
+    "invoiceIssuedBy": "Faktura utstedt av",
+    "company_code": "Organisasjonsnummer",
+    "vat_code": "MVA-nummer"
   }
 }

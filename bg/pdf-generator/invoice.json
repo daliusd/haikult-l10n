@@ -31,6 +31,8 @@
     "vat": "ДДС",
     "alreadyPaid": "Платено",
     "sumToPay": "За плащане",
-    "invoiceIssuedBy": "Фактура издадена от"
+    "invoiceIssuedBy": "Фактура издадена от",
+    "company_code": "Код на дружеството",
+    "vat_code": "ДДС номер"
   }
 }

@@ -31,6 +31,8 @@
     "vat": "ПДВ",
     "alreadyPaid": "Сплачено",
     "sumToPay": "До сплати",
-    "invoiceIssuedBy": "Рахунок виписав"
+    "invoiceIssuedBy": "Рахунок виписав",
+    "company_code": "Код підприємства",
+    "vat_code": "ПДВ номер"
   }
 }

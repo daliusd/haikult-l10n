@@ -31,6 +31,8 @@
     "vat": "MwSt",
     "alreadyPaid": "Bezahlt",
     "sumToPay": "Zu zahlen",
-    "invoiceIssuedBy": "Rechnung ausgestellt von"
+    "invoiceIssuedBy": "Rechnung ausgestellt von",
+    "company_code": "Firmennummer",
+    "vat_code": "USt-IdNr."
   }
 }

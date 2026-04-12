@@ -31,6 +31,8 @@
     "vat": "ПДВ",
     "alreadyPaid": "Плаћено",
     "sumToPay": "За плаћање",
-    "invoiceIssuedBy": "Рачун издао"
+    "invoiceIssuedBy": "Рачун издао",
+    "company_code": "Матични број",
+    "vat_code": "ПДВ број"
   }
 }

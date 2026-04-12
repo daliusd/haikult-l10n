@@ -31,6 +31,8 @@
     "vat": "Moms",
     "alreadyPaid": "Betalt",
     "sumToPay": "Att betala",
-    "invoiceIssuedBy": "Faktura utfärdad av"
+    "invoiceIssuedBy": "Faktura utfärdad av",
+    "company_code": "Organisationsnummer",
+    "vat_code": "Momsnummer"
   }
 }

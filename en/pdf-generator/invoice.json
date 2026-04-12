@@ -31,6 +31,8 @@
     "vat": "VAT",
     "alreadyPaid": "Paid",
     "sumToPay": "Sum to pay",
-    "invoiceIssuedBy": "Invoice issued by"
+    "invoiceIssuedBy": "Invoice issued by",
+    "company_code": "Company code",
+    "vat_code": "VAT code"
   }
 }

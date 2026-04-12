@@ -31,6 +31,8 @@
     "vat": "BEZ",
     "alreadyPaid": "Ordainduta",
     "sumToPay": "Ordaintzeko",
-    "invoiceIssuedBy": "Faktura jaulkitzailea"
+    "invoiceIssuedBy": "Faktura jaulkitzailea",
+    "company_code": "Enpresa kodea",
+    "vat_code": "BEZ zenbakia"
   }
 }

@@ -31,6 +31,8 @@
     "vat": "ALV",
     "alreadyPaid": "Maksettu",
     "sumToPay": "Maksettava",
-    "invoiceIssuedBy": "Laskun laatija"
+    "invoiceIssuedBy": "Laskun laatija",
+    "company_code": "Y-tunnus",
+    "vat_code": "ALV-tunnus"
   }
 }

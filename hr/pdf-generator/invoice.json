@@ -31,6 +31,8 @@
     "vat": "PDV",
     "alreadyPaid": "Plaćeno",
     "sumToPay": "Za platiti",
-    "invoiceIssuedBy": "Račun izdao"
+    "invoiceIssuedBy": "Račun izdao",
+    "company_code": "OIB tvrtke",
+    "vat_code": "PDV ID"
   }
 }

@@ -31,6 +31,8 @@
     "vat": "TAW",
     "alreadyPaid": "Talwyd",
     "sumToPay": "I'w dalu",
-    "invoiceIssuedBy": "Anfoneb a gyhoeddwyd gan"
+    "invoiceIssuedBy": "Anfoneb a gyhoeddwyd gan",
+    "company_code": "Cod cwmni",
+    "vat_code": "Rhif TAW"
   }
 }

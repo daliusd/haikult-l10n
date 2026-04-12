@@ -31,6 +31,8 @@
     "vat": "VAT",
     "alreadyPaid": "Zapłacono",
     "sumToPay": "Do zapłaty",
-    "invoiceIssuedBy": "Fakturę wystawił"
+    "invoiceIssuedBy": "Fakturę wystawił",
+    "company_code": "Numer rejestracyjny",
+    "vat_code": "Numer VAT"
   }
 }

@@ -31,6 +31,8 @@
     "vat": "TVSH",
     "alreadyPaid": "Paguar",
     "sumToPay": "Për t'u paguar",
-    "invoiceIssuedBy": "Faturë e lëshuar nga"
+    "invoiceIssuedBy": "Faturë e lëshuar nga",
+    "company_code": "Kodi i kompanisë",
+    "vat_code": "Numri i TVSH-së"
   }
 }

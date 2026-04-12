@@ -31,6 +31,8 @@
     "vat": "ÁFA",
     "alreadyPaid": "Fizetve",
     "sumToPay": "Fizetendő",
-    "invoiceIssuedBy": "Számlát kiállította"
+    "invoiceIssuedBy": "Számlát kiállította",
+    "company_code": "Cégjegyzékszám",
+    "vat_code": "Adószám"
   }
 }

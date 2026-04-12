@@ -31,6 +31,8 @@
     "vat": "ΦΠΑ",
     "alreadyPaid": "Πληρώθηκε",
     "sumToPay": "Προς πληρωμή",
-    "invoiceIssuedBy": "Τιμολόγιο εκδόθηκε από"
+    "invoiceIssuedBy": "Τιμολόγιο εκδόθηκε από",
+    "company_code": "Αριθμός εταιρείας",
+    "vat_code": "ΑΦΜ"
   }
 }

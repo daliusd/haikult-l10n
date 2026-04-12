@@ -31,6 +31,8 @@
     "vat": "DPH",
     "alreadyPaid": "Zaplaceno",
     "sumToPay": "K úhradě",
-    "invoiceIssuedBy": "Fakturu vystavil"
+    "invoiceIssuedBy": "Fakturu vystavil",
+    "company_code": "IČO",
+    "vat_code": "DIČ"
   }
 }

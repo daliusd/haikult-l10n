@@ -31,6 +31,8 @@
     "vat": "KM",
     "alreadyPaid": "Makstud",
     "sumToPay": "Tasumisele kuuluv summa",
-    "invoiceIssuedBy": "Arve koostaja"
+    "invoiceIssuedBy": "Arve koostaja",
+    "company_code": "Ettevõtte kood",
+    "vat_code": "KMKR number"
   }
 }

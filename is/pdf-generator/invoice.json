@@ -31,6 +31,8 @@
     "vat": "VSK",
     "alreadyPaid": "Greitt",
     "sumToPay": "Til greiðslu",
-    "invoiceIssuedBy": "Reikningur gefinn út af"
+    "invoiceIssuedBy": "Reikningur gefinn út af",
+    "company_code": "Kennitala fyrirtækis",
+    "vat_code": "VSK-númer"
   }
 }

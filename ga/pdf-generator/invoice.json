@@ -31,6 +31,8 @@
     "vat": "CBL",
     "alreadyPaid": "Íoctha",
     "sumToPay": "Le híoc",
-    "invoiceIssuedBy": "Sonrasc eisithe ag"
+    "invoiceIssuedBy": "Sonrasc eisithe ag",
+    "company_code": "Cód cuideachta",
+    "vat_code": "Uimhir CBL"
   }
 }

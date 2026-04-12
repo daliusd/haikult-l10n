@@ -31,6 +31,8 @@
     "vat": "BTW",
     "alreadyPaid": "Betaald",
     "sumToPay": "Te betalen bedrag",
-    "invoiceIssuedBy": "Factuur uitgegeven door"
+    "invoiceIssuedBy": "Factuur uitgegeven door",
+    "company_code": "KVK-nummer",
+    "vat_code": "BTW-nummer"
   }
 }

@@ -31,6 +31,8 @@
     "vat": "PVN",
     "alreadyPaid": "Samaksāts",
     "sumToPay": "Maksājamā summa",
-    "invoiceIssuedBy": "Rēķinu izdevis"
+    "invoiceIssuedBy": "Rēķinu izdevis",
+    "company_code": "Reģistrācijas numurs",
+    "vat_code": "PVN numurs"
   }
 }

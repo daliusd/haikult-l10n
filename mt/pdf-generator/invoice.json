@@ -31,6 +31,8 @@
     "vat": "VAT",
     "alreadyPaid": "Imħallas",
     "sumToPay": "Biex jitħallas",
-    "invoiceIssuedBy": "Fattura maħruġa minn"
+    "invoiceIssuedBy": "Fattura maħruġa minn",
+    "company_code": "Kodiċi tal-kumpanija",
+    "vat_code": "Numru tal-VAT"
   }
 }

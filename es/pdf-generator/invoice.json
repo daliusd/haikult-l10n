@@ -31,6 +31,8 @@
     "vat": "IVA",
     "alreadyPaid": "Pagado",
     "sumToPay": "Importe a pagar",
-    "invoiceIssuedBy": "Factura emitida por"
+    "invoiceIssuedBy": "Factura emitida por",
+    "company_code": "Código de empresa",
+    "vat_code": "NIF/CIF"
   }
 }

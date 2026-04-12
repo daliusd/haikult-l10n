@@ -31,6 +31,8 @@
     "vat": "MwSt",
     "alreadyPaid": "Bezuelt",
     "sumToPay": "Ze bezuelen",
-    "invoiceIssuedBy": "Rechnung ausgestallt vun"
+    "invoiceIssuedBy": "Rechnung ausgestallt vun",
+    "company_code": "Firmennummer",
+    "vat_code": "MwSt-Nummer"
   }
 }
