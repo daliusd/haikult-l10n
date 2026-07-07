@@ -82,7 +82,11 @@ Jede von Haiku.lt generierte Rechnung enthält eingebettete strukturierte Daten 
 
 Wenn Sie eine PDF-Rechnung von Haiku.lt herunterladen oder senden, ist es tatsächlich ein Hybriddokument: Es sieht für Menschen wie eine normale PDF aus, enthält aber eingebettete XML-Daten, die Buchhaltungssysteme automatisch extrahieren und verarbeiten können.
 
-Das bedeutet, dass Ihre Haiku.lt-Rechnungen bereits E-Rechnungskonform für Länder sind, die EN 16931-Formate akzeptieren.
+Das bedeutet, dass Ihre Haiku.lt-Rechnungen die E-Rechnungsanforderungen für Länder erfüllen sollten, die EN 16931-Formate akzeptieren.
+
+### Litauische i.SAF-Unterstützung
+
+Für in Litauen registrierte Unternehmen bietet Haiku.lt vollständige i.SAF-Exportfunktionalität (Standartinė Audito Rinkmena). Sie können monatliche Mehrwertsteuermeldungen mit einem einzigen Klick in genau dem von der VMI (Staatliche Steuerinspektion) geforderten Format erstellen.
 
 ### Mehrsprachigkeit und Mehrwährung
 
@@ -122,7 +126,7 @@ Einige Länder verlangen, dass Rechnungen über bestimmte Regierungsplattformen 
 
 Haiku.lt ist derzeit nicht mit diesen Plattformen integriert. Wenn Sie bedeutende B2B-Geschäfte in diesen Ländern tätigen, benötigen Sie möglicherweise zusätzliche Lösungen für die Compliance.
 
-Denken Sie jedoch daran: Wenn Sie Rechnungen an Verbraucher (B2C) in diesen Ländern stellen (außer Italien), bleiben Standard-PDF-Rechnungen gültig.
+Denken Sie jedoch daran: Wenn Sie Rechnungen an Verbraucher (B2C) in diesen Ländern stellen (außer Italien und Rumänien), bleiben Standard-PDF-Rechnungen gültig.
 
 ## Europäische E-Rechnungsanforderungen nach Land
 
@@ -194,10 +198,10 @@ E-Rechnungsvorschriften können überwältigend erscheinen, aber hier ist, was f
 
 3. **Haiku.lt ist wahrscheinlich konform** für Deutschland, Litauen, Schweiz, Liechtenstein und mehrere andere EU-Länder, die EN 16931-Formate akzeptieren. Für Länder wie Frankreich, die mehrere Formate akzeptieren, erweitern wir die Unterstützung.
 
-4. **EU+ Abdeckung ist stark.** Schweiz und Liechtenstein funktionieren bereits mit der aktuellen Haiku.lt-Implementierung. Norwegen, Island und UK werden in Zukunft Peppol-Integration benötigen.
+4. **Die EU+ Abdeckung ist vielversprechend.** Schweiz und Liechtenstein sollten mit der aktuellen EN 16931-konformen Implementierung von Haiku.lt funktionieren. Norwegen, Island und das Vereinigte Königreich werden in Zukunft eine Peppol-Integration benötigen.
 
 5. **Wir verbessern uns kontinuierlich.** Die E-Rechnungsunterstützung wird basierend auf Nutzernachfrage erweitert, während wir neue Formate und Plattformintegrationen hinzufügen.
 
-Für die meisten Nutzer sind die aktuellen Fähigkeiten von Haiku.lt mehr als ausreichend. Ihre Rechnungen enthalten bereits strukturierte Daten, die europäischen Standards entsprechen. Wenn sich die Anforderungen entwickeln, entwickeln wir uns mit.
+Für die meisten Nutzer sollten die aktuellen Fähigkeiten von Haiku.lt ausreichen. Ihre Rechnungen enthalten bereits strukturierte Daten, die dem europäischen Standard EN 16931 entsprechen. Wenn sich die Anforderungen entwickeln, entwickeln wir uns mit.
 
 Bereit, professionelle, konforme Rechnungen zu erstellen? Starten Sie auf [haiku.lt](https://haiku.lt).

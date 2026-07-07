@@ -10,6 +10,7 @@
   "account-switcher.badge.controlled": "Managed",
   "account-switcher.badge.read-only": "Read-only",
   "account-switcher.menu.switch-account": "Switch account",
+  "account-switcher.menu.logout": "Log out",
   "account-switcher.label.yours": "(Yours)",
   "account-switcher.label.controlled": "Managed accounts:",
   "account-switcher.label.current": "(Current)",

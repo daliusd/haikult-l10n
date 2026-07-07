@@ -14,12 +14,12 @@ one that fits your needs, and adapt it accordingly.
 Here you'll find various examples that you can use in the [Settings
 page](/app/settings) "Additional Information Program" section.
 
-### Specify a payment due date based on invoice date
+### Specify a payment due date
 
 ```js
-const daysUntilDue = 10;
-date.setDate(date.getDate() + daysUntilDue);
-globalThis.result = `Please pay by ${formatDate(date)}`;
+if (dueDate) {
+  globalThis.result = `Please pay by ${formatDate(dueDate)}`;
+}
 ```
 
 When creating an invoice, a "Run additional information program" button will
@@ -30,9 +30,9 @@ populate the field with text like "Please pay by 2024-06-26".
 
 ```js
 // AUTO
-const daysUntilDue = 10;
-date.setDate(date.getDate() + daysUntilDue);
-globalThis.result = `Please pay by ${formatDate(date)}`;
+if (dueDate) {
+  globalThis.result = `Please pay by ${formatDate(dueDate)}`;
+}
 ```
 
 When you change the invoice date or any other field, the additional information
@@ -41,35 +41,52 @@ automatically overwritten, so your manual changes may be lost. Therefore, use
 the automatic variant (first line `// AUTO`) only when you want the additional
 information to always look the same.
 
-### Specify payment due date based on invoice date and language (automatically)
+### Specify payment due date based on language (automatically)
 
 ```js
 // AUTO
-const daysUntilDue = 10;
-date.setDate(date.getDate() + daysUntilDue);
-if (language == 'lt') {
-  globalThis.result = `Prašome apmokėti sąskaitą iki ${formatDate(date)}`;
-} else if (language === 'en') {
-  globalThis.result = `Please pay by ${formatDate(date)}`;
+if (dueDate) {
+  if (language == 'lt') {
+    globalThis.result = `Prašome apmokėti sąskaitą iki ${formatDate(dueDate)}`;
+  } else if (language === 'en') {
+    globalThis.result = `Please pay by ${formatDate(dueDate)}`;
+  }
 }
 ```
 
-### Specify payment method based on buyer or amount
+### Specify the payment method
+
+When creating or editing an invoice, you can choose a payment method (cash or
+bank transfer) from the dropdown below the due date. That choice is available to
+the program as the `paymentMethod` variable, which is `'cash'`, `'bank'`, or
+`null` when nothing is selected. The dropdown itself does not appear on the
+invoice — use the program to render it into the additional information field.
 
 ```js
-let result = 'Please pay';
-if (buyer.includes('Corp') || buyer.includes('Inc') || price > 50000) {
-  result += ' by BANK TRANSFER';
-} else {
-  result += ' by CASH';
+if (paymentMethod === 'bank') {
+  globalThis.result = 'Please pay by BANK TRANSFER';
+} else if (paymentMethod === 'cash') {
+  globalThis.result = 'Please pay in CASH';
 }
-globalThis.result = result;
 ```
 
-In this example, if the buyer field contains "Corp" or "Inc" or the invoice
-amount is more than 500 (amounts are provided to the program in cents, so 50000
-is specified), then we request payment by bank transfer. Otherwise, we request
-cash payment.
+You can localize the text based on the invoice `language`:
+
+```js
+if (paymentMethod === 'bank') {
+  if (language === 'lt') {
+    globalThis.result = 'Prašome apmokėti bankiniu pavedimu';
+  } else {
+    globalThis.result = 'Please pay by BANK TRANSFER';
+  }
+} else if (paymentMethod === 'cash') {
+  if (language === 'lt') {
+    globalThis.result = 'Prašome apmokėti grynais';
+  } else {
+    globalThis.result = 'Please pay in CASH';
+  }
+}
+```
 
 ### Combining information
 
@@ -77,17 +94,16 @@ You can combine this information if you want to specify both the payment date
 and payment method.
 
 ```js
-const daysUntilDue = 10;
-date.setDate(date.getDate() + daysUntilDue);
-let result = `Please pay by ${formatDate(date)}\n`;
+if (dueDate) {
+  let result = `Please pay by ${formatDate(dueDate)}\n`;
 
-result += 'Payment method: ';
-if (buyer.includes('Corp') || buyer.includes('Inc') || price > 50000) {
-  result += 'BANK TRANSFER';
-} else {
-  result += 'CASH';
+  if (paymentMethod === 'bank') {
+    result += 'Payment method: BANK TRANSFER';
+  } else if (paymentMethod === 'cash') {
+    result += 'Payment method: CASH';
+  }
+  globalThis.result = result;
 }
-globalThis.result = result;
 ```
 
 ## Information for Programmers
@@ -100,6 +116,8 @@ The program receives this information:
 - `seriesName` - series name
 - `seriesId` - series number
 - `date` - invoice date
+- `dueDate` - due date as a JavaScript `Date` object, or `null` if not set
+- `paymentMethod` - selected payment method: `'cash'`, `'bank'`, or `null` if not set
 - `language` - language
 - `seller` - seller information
 - `buyer` - buyer information
@@ -114,6 +132,8 @@ const invoiceType = 'standard';
 const seriesName = 'INV';
 const seriesId = 47;
 const date = new Date(1718540924628);
+const dueDate = null;
+const paymentMethod = null;
 const language = 'en';
 const seller = 'Buyer';
 const buyer = 'Seller';

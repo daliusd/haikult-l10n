@@ -87,7 +87,7 @@ Haiku.lt nutzt folgende Drittanbieterdienste, um unsere Funktionalität bereitzu
 **Zweck**: Um Ihnen Folgendes zu ermöglichen:
 - **Authentifizierung** mit Ihrem Google-Konto über OAuth 2.0
 - **Google Drive** (Bereich: `drive.file`): Rechnungs-PDFs in Ihrem Drive in organisierten Ordnern (Haiku.lt/Invoices/Year) speichern. Wir können nur auf Dateien zugreifen, die von unserer Anwendung erstellt wurden, nicht auf Ihre anderen Drive-Dateien. Wir speichern Drive-Datei-IDs, um gespeicherte Rechnungen zu verfolgen.
-- **Gmail** (Bereich: `gmail.send`): Rechnungs-E-Mails in Ihrem Namen an Käufer senden. Wir lesen Ihren Posteingang oder vorhandene E-Mails nicht. Gesendete E-Mails erscheinen in Ihrem Gmail-Ordner "Gesendet".
+- **Gmail** (Bereich: `gmail.send`): Rechnungs-E-Mails in Ihrem Namen an Käufer senden. Wir lesen weder Ihren Posteingang noch vorhandene E-Mails. Gesendete E-Mails erscheinen in Ihrem Gmail-Ordner "Gesendet".
 - **Google Calendar** (Bereich: `calendar.readonly`, optional): Kalenderereignistitel, -daten, -zeiten und Teilnahmestatus lesen, um beim Erstellen von Rechnungen zu helfen. Diese Daten werden vorübergehend abgerufen und nicht dauerhaft gespeichert.
 
 **Datenspeicherung**: 

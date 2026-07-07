@@ -1,7 +1,7 @@
 ---
 title: 'Invoice Markup Language (InML)'
 date: '2026-02-22'
-modified: '2026-02-22'
+modified: '2026-05-24'
 ---
 
 InML (Invoice Markup Language) is an XML-based template language for defining

@@ -1,80 +1,69 @@
 ---
-title: 'Sekite verslo išlaidas su Haiku — išmanusis sąskaitų valdymas, jau integruotas'
+title: 'Išlaidų sekimas'
 date: '2026-03-22'
-modified: '2026-03-22'
-showDate: true
+modified: '2026-05-24'
 ---
 
-Verslo išlaidų tvarkymas — tai viena iš tų užduočių, kurių niekas nemėgsta, bet visi privalo atlikti. Naršyti el. laiškų priedus, rankiniu būdu rinkti sąskaitų numerius ir bandyti prisiminti, kas buvo tas €47,80 mokestis prieš tris savaites — visa tai atima daug brangaus laiko. Todėl išlaidų sekimą integravome tiesiai į Haiku.
+Haiku seka verslo išlaidas šalia jūsų sąskaitų. Įkelkite sąskaitą ar kvitą, leiskite sistemai automatiškai išskaityti duomenis, kai įmanoma, ir laikykite failus tvarkingai Haiku sistemoje ir (arba) Google Drive.
 
-## Kas naujo
+## Išlaidų puslapis
 
-Haiku dabar turi išsamią išlaidų valdymo sistemą. Galite įkelti sąskaitas ir kvitus, automatiškai išgauti duomenis, saugiai saugoti failus ir sinchronizuoti viską su Google Drive — neišeinant iš programėlės.
+![Išlaidų puslapis](/screenshots/expenses-tracking/lt/step-1-expenses-list.png)
 
-## Išlaidos per 4 žingsnius
+**Išlaidų** puslapis rodo visas užfiksuotas išlaidas su greita prieiga prie redagavimo, trynimo, saugomo failo atidarymo ar originalo atsisiuntimo.
 
-Naujos išlaidos pridėjimas paprastas. Spustelėkite **Nauja išlaida** ir sekite žingsnius.
+Filtravimas:
+
+- **Datų intervalas** — pasirinkite konkretų mėnesį, ketvirtį ar pasirinktinį laikotarpį.
+- **Paieška pagal aprašymą** — raskite išlaidą pagal raktinį žodį.
+- **Bendra suma** — pagal dabartinį filtrą atitinkančių išlaidų skaičius ir suma puslapio viršuje.
+
+Kiekviena kortelė rodo aprašymą, pardavėją, sumą, datą ir saugojimo būseną (Haiku, Drive ar abu).
+
+## Išlaidos pridėjimas
+
+Išlaidų puslapyje paspauskite **Nauja išlaida**. Atsidaro 4 žingsnių vedlys.
 
 ### 1 žingsnis — Įkelkite dokumentą
 
-Nuvilkite arba pasirinkite sąskaitą ar kvitą. Palaikomi formatai: PDF, JPEG, PNG ir XML. Tai apima viską — nuo nuskaitytų popieriaus kvitų iki elektroninių sąskaitų iš jūsų tiekėjų.
+Nutempkite arba pasirinkite failą. Palaikomi formatai: **PDF**, **JPEG**, **PNG**, **XML** — tinka skenuotiems kvitams ir elektroninėms sąskaitoms.
 
-### 2 žingsnis — Automatinis nuskaitymas
+### 2 žingsnis — Automatinis duomenų nuskaitymas
 
-Įkėlus failą, Haiku iš karto bando jį perskaityti. Jei dokumentas yra standartinė elektroninė sąskaita (tokia, kokią generuoja daugelis apskaitos programų ir ES tiekėjų), Haiku automatiškai išgaus sąskaitos numerį, pardavėjo pavadinimą, eilutes, bendrą sumą ir išrašymo datą. Jokio rankinio įvedimo.
+Jei failas yra standartinė elektroninė sąskaita (Factur-X PDF, paplitęs Prancūzijoje ir Vokietijoje; e-invoice XML), Haiku išskaitys:
 
-Nuskaitytų vaizdų ar nestruktūrizuotų PDF atveju detales užpildysite patys kitame žingsnyje.
+- Sąskaitos numerį
+- Pardavėjo pavadinimą
+- Eilutes
+- Bendrą sumą
+- Išrašymo datą
 
-### 3 žingsnis — Peržiūrėkite, redaguokite ir pasirinkite saugyklą
+Skenuotiems vaizdams ar nestruktūruotiems PDF forma atsidaro tuščia ir duomenis įvedate patys.
 
-Pamatysite iš anksto užpildytą formą su viskuo, ką Haiku išgavo. Peržiūrėkite, pataisykite ir užpildykite trūkstamus laukus.
+### 3 žingsnis — Peržiūra, redagavimas ir saugojimo pasirinkimas
 
-Taip pat pasirenkate, kur saugoti failą:
+Atsiranda iš anksto užpildyta forma. Pataisykite, kas netiksli, tada pasirinkite, kur saugoti failą:
 
-- **Įkelti į Haiku** — failas saugomas sistemoje (failai iki 2 MB)
-- **Įkelti į Google Drive** — failas siunčiamas į specialų aplanką jūsų Drive (reikalingas Google Drive leidimas)
+- **Įkelti į Haiku** — iki 2 MB, saugiai laikoma jūsų paskyroje.
+- **Įkelti į Google Drive** — į specialų aplanką jūsų Drive (reikia autorizacijos — žr. [Google Drive integracija](/lt/google-drive-integration)).
 
-Galite pasirinkti vieną, abu arba nė vieno — išlaidų įrašas bet kuriuo atveju išsaugomas jūsų paskyroje.
+Galite pasirinkti vieną, abu arba nieką. Pati išlaidos kortelė visada išsaugoma, nepriklausomai nuo to, kur eina failas.
 
 ### 4 žingsnis — Išsaugota
 
-Išlaida užregistruota. Pamatysite patvirtinimą ir galėsite iš karto pridėti kitą arba pereiti į išlaidų sąrašą.
-
-## Išmanusis sąskaitų nuskaitymas
-
-Haiku moka nuskaityti sąskaitas standartiniais elektroniniais formatais, naudojamais visoje Europoje ir tarptautiniu mastu. Jei tiekėjas siunčia Factur-X PDF (įprasta Prancūzijoje ir Vokietijoje) arba e. sąskaitos XML failą, Haiku teisingai jį apdoros — sumos, eilutės ir datos bus išgautos automatiškai.
-
-Kitiems dokumentams — kvitų nuotraukoms, paprastiems PDF — detales įvedаtе patys, o Haiku jas saugo ir tvarko.
-
-## Google Drive integracija
-
-Jei prie Haiku paskyros prijungėte Google Drive, galite failus siųsti tiesiai į Drive. Haiku automatiškai sukuria tvarkingą aplankų struktūrą:
-
-```
-Haiku.lt
-  └── Išlaidos
-        └── 2026
-              └── jūsų-sąskaita.pdf
-```
-
-Failai pavadinami pagal išlaidos aprašymą ir pardavėją, todėl juos lengva rasti vėliau net neatidarant.
-
-## Išlaidų valdymas
-
-**Išlaidų** puslapyje matysite visas užregistruotas išlaidas.
-
-- **Filtravimas pagal datų intervalą** — susitelkite į konkretų mėnesį, ketvirtį ar pasirinktą laikotarpį
-- **Paieška pagal aprašymą** — raskite konkrečią išlaidą pagal raktinį žodį
-- **Einamoji suma** — vienu žvilgsniu matykite atitinkančių išlaidų skaičių ir bendrą sumą
-
-Kiekvienoje išlaidos kortelėje rodoma pagrindinė informacija ir mygtukai redaguoti, ištrinti, atidaryti Google Drive failą arba atsisiųsti sąskaitą tiesiai iš Haiku.
+Patvirtinimas. Iš čia galite pridėti kitą išlaidą arba grįžti į sąrašą.
 
 ## Redagavimas ir trynimas
 
-Padarėte klaidą? Nesijaudinkite. Kiekviena išlaida turi mygtuką **Redaguoti**, leidžiantį atnaujinti bet kurį lauką — aprašymą, pardavėją, sumą, datą, eilutes. Jei reikia visiškai pašalinti įrašą, mygtukas **Ištrinti** yra su patvirtinimo žingsniu, kad niekas nebūtų pašalinta per klaidą.
+Kiekviena išlaida turi **Redaguoti** mygtuką, leidžiantį atnaujinti bet kurį lauką — aprašymą, pardavėją, sumą, datą, eilutes, saugojimo pasirinkimą. **Trinti** mygtukas pašalina įrašą po patvirtinimo.
 
-## Pradėkite dabar
+Išlaidos trynimas neištrina Google Drive failo. Jei norite pašalinti ir debesyje esančią kopiją, pirmiausia kortelėje paspauskite **Trinti iš Drive**.
 
-Jei jau naudojate Haiku, Išlaidų skyrius pasiekiamas naršymo meniu. Eikite ten, spustelėkite **Nauja išlaida** ir išbandykite su kita sąskaita.
+## Išmanus sąskaitų nuskaitymas
 
-Jei jūsų apskaitos sistema eksportuoja elektronines sąskaitas — išbandykite jas pirmiausia. Automatinis nuskaitymas sutaupys daugiausiai laiko.
+Haiku skaito sąskaitas standartiniais elektroniniais formatais, naudojamais visoje Europoje:
+
+- **Factur-X / ZUGFeRD** PDF — paplitę pas Vokietijos ir Prancūzijos tiekėjus.
+- **UBL / Peppol / EN 16931** XML — ES elektroninio sąskaitų išrašymo standartas.
+
+Nepalaikomiems formatams ar nuotraukoms 3 žingsnio laukai lieka tušti ir užpildomi rankomis.

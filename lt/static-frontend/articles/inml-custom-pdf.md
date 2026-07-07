@@ -1,7 +1,7 @@
 ---
 title: 'Sąskaitų faktūrų žymėjimo kalba (InML)'
 date: '2026-02-22'
-modified: '2026-02-22'
+modified: '2026-05-24'
 ---
 
 InML (Invoice Markup Language) yra XML pagrindu sukurta šablonų kalba,

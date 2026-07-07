@@ -1,7 +1,7 @@
 ---
 title: 'Änderungsprotokoll'
 date: '2021-04-02'
-modified: '2026-03-27'
+modified: '2026-05-05'
 ---
 
 Hier finden Sie, was im System nach Datum geändert wurde (von den neuesten
@@ -9,6 +9,16 @@ zu den ältesten Änderungen).
 
 Wenn Sie Fragen oder Vorschläge haben, senden Sie bitte eine E-Mail an
 [dalius.dobravolskas@gmail.com](mailto:dalius.dobravolskas@gmail.com).
+
+## 2026-05-05
+
+- Unterstützung für Fälligkeitsdaten bei Rechnungen
+
+## 2026-05-04
+
+- XLSX-Export für Rechnungen
+- [Pigu-Marktplatz-Integration](/de/pigu-integration) (pigu.lt, 220.lv, kaup24.ee, hobbyhall.fi)
+- Option zum Hinzufügen von Bildern als Anhänge im Dialog "Vorschau und Senden"
 
 ## 2026-03-27
 

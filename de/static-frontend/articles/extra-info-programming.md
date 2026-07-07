@@ -14,12 +14,12 @@ auszuwählen, das Ihren Bedürfnissen entspricht, und es entsprechend anzupassen
 Hier finden Sie verschiedene Beispiele, die Sie im Bereich "Programm für zusätzliche Informationen"
 auf der [Einstellungsseite](/app/settings) verwenden können.
 
-### Fälligkeitsdatum basierend auf Rechnungsdatum angeben
+### Fälligkeitsdatum angeben
 
 ```js
-const daysUntilDue = 10;
-date.setDate(date.getDate() + daysUntilDue);
-globalThis.result = `Bitte zahlen Sie bis ${formatDate(date)}`;
+if (dueDate) {
+  globalThis.result = `Bitte zahlen Sie bis ${formatDate(dueDate)}`;
+}
 ```
 
 Beim Erstellen einer Rechnung erscheint eine Schaltfläche "Programm für zusätzliche Informationen ausführen"
@@ -30,9 +30,9 @@ mit Text wie "Bitte zahlen Sie bis 2024-06-26" gefüllt.
 
 ```js
 // AUTO
-const daysUntilDue = 10;
-date.setDate(date.getDate() + daysUntilDue);
-globalThis.result = `Bitte zahlen Sie bis ${formatDate(date)}`;
+if (dueDate) {
+  globalThis.result = `Bitte zahlen Sie bis ${formatDate(dueDate)}`;
+}
 ```
 
 Wenn Sie das Rechnungsdatum oder ein anderes Feld ändern, wird das Feld für zusätzliche Informationen
@@ -41,37 +41,55 @@ automatisch überschrieben wird, sodass Ihre manuellen Änderungen verloren gehe
 die automatische Variante (erste Zeile `// AUTO`) nur, wenn Sie möchten, dass die zusätzlichen
 Informationen immer gleich aussehen.
 
-### Fälligkeitsdatum basierend auf Rechnungsdatum und Sprache angeben (automatisch)
+### Fälligkeitsdatum basierend auf Sprache angeben (automatisch)
 
 ```js
 // AUTO
-const daysUntilDue = 10;
-date.setDate(date.getDate() + daysUntilDue);
-if (language == 'lt') {
-  globalThis.result = `Prašome apmokėti sąskaitą iki ${formatDate(date)}`;
-} else if (language === 'en') {
-  globalThis.result = `Please pay by ${formatDate(date)}`;
-} else if (language === 'de') {
-  globalThis.result = `Bitte zahlen Sie bis ${formatDate(date)}`;
+if (dueDate) {
+  if (language == 'lt') {
+    globalThis.result = `Prašome apmokėti sąskaitą iki ${formatDate(dueDate)}`;
+  } else if (language === 'en') {
+    globalThis.result = `Please pay by ${formatDate(dueDate)}`;
+  } else if (language === 'de') {
+    globalThis.result = `Bitte zahlen Sie bis ${formatDate(dueDate)}`;
+  }
 }
 ```
 
-### Zahlungsmethode basierend auf Käufer oder Betrag angeben
+### Zahlungsart angeben
+
+Beim Erstellen oder Bearbeiten einer Rechnung können Sie eine Zahlungsart (bar
+oder per Überweisung) aus dem Dropdown unter dem Fälligkeitsdatum auswählen.
+Diese Auswahl steht dem Programm als Variable `paymentMethod` zur Verfügung, die
+`'cash'`, `'bank'` oder `null` ist, wenn nichts ausgewählt wurde. Das Dropdown
+selbst erscheint nicht auf der Rechnung — verwenden Sie das Programm, um es in
+das Feld für zusätzliche Informationen zu schreiben.
 
 ```js
-let result = 'Bitte zahlen Sie';
-if (buyer.includes('GmbH') || buyer.includes('AG') || price > 50000) {
-  result += ' per BANKÜBERWEISUNG';
-} else {
-  result += ' in BAR';
+if (paymentMethod === 'bank') {
+  globalThis.result = 'Bitte zahlen Sie per BANKÜBERWEISUNG';
+} else if (paymentMethod === 'cash') {
+  globalThis.result = 'Bitte zahlen Sie in BAR';
 }
-globalThis.result = result;
 ```
 
-In diesem Beispiel, wenn das Käuferfeld "GmbH" oder "AG" enthält oder der Rechnungsbetrag
-mehr als 500 beträgt (Beträge werden dem Programm in Cent bereitgestellt, daher wird 50000
-angegeben), fordern wir die Zahlung per Banküberweisung an. Andernfalls fordern wir
-Barzahlung an.
+Sie können den Text anhand der Rechnungssprache `language` anpassen:
+
+```js
+if (paymentMethod === 'bank') {
+  if (language === 'de') {
+    globalThis.result = 'Bitte zahlen Sie per Banküberweisung';
+  } else {
+    globalThis.result = 'Please pay by BANK TRANSFER';
+  }
+} else if (paymentMethod === 'cash') {
+  if (language === 'de') {
+    globalThis.result = 'Bitte zahlen Sie in bar';
+  } else {
+    globalThis.result = 'Please pay in CASH';
+  }
+}
+```
 
 ### Informationen kombinieren
 
@@ -79,17 +97,16 @@ Sie können diese Informationen kombinieren, wenn Sie sowohl das Zahlungsdatum
 als auch die Zahlungsmethode angeben möchten.
 
 ```js
-const daysUntilDue = 10;
-date.setDate(date.getDate() + daysUntilDue);
-let result = `Bitte zahlen Sie bis ${formatDate(date)}\n`;
+if (dueDate) {
+  let result = `Bitte zahlen Sie bis ${formatDate(dueDate)}\n`;
 
-result += 'Zahlungsmethode: ';
-if (buyer.includes('GmbH') || buyer.includes('AG') || price > 50000) {
-  result += 'BANKÜBERWEISUNG';
-} else {
-  result += 'BAR';
+  if (paymentMethod === 'bank') {
+    result += 'Zahlungsart: BANKÜBERWEISUNG';
+  } else if (paymentMethod === 'cash') {
+    result += 'Zahlungsart: BAR';
+  }
+  globalThis.result = result;
 }
-globalThis.result = result;
 ```
 
 ## Informationen für Programmierer
@@ -102,6 +119,8 @@ Das Programm erhält diese Informationen:
 - `seriesName` - Serienname
 - `seriesId` - Seriennummer
 - `date` - Rechnungsdatum
+- `dueDate` - Fälligkeitsdatum als JavaScript-`Date`-Objekt, oder `null` wenn nicht gesetzt
+- `paymentMethod` - gewählte Zahlungsart: `'cash'`, `'bank'` oder `null` wenn nicht gesetzt
 - `language` - Sprache
 - `seller` - Verkäuferinformationen
 - `buyer` - Käuferinformationen
@@ -116,6 +135,8 @@ const invoiceType = 'standard';
 const seriesName = 'INV';
 const seriesId = 47;
 const date = new Date(1718540924628);
+const dueDate = null;
+const paymentMethod = null;
 const language = 'de';
 const seller = 'Verkäufer';
 const buyer = 'Käufer';
@@ -135,5 +156,5 @@ jedes Mal ausgeführt, wenn sich Felder ändern.
 Programme, die mit `// AUTO` markiert sind, werden auch ausgeführt, wenn mehrere
 Rechnungen im Batch-Modus bearbeitet werden.
 
-`formatDate` ist eine Hilfsfunktion, die Daten im Format JJJJ-MM-TT formatiert,
+`formatDate` ist eine Hilfsfunktion, die Datumsangaben im Format JJJJ-MM-TT formatiert,
 z. B. 2024-06-26

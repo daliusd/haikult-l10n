@@ -10,6 +10,7 @@
   "account-switcher.badge.controlled": "Kontroliuojama",
   "account-switcher.badge.read-only": "Tik skaityti",
   "account-switcher.menu.switch-account": "Perjungti paskyrą",
+  "account-switcher.menu.logout": "Atsijungti",
   "account-switcher.label.yours": "(Jūsų)",
   "account-switcher.label.controlled": "Kontroliuojamos:",
   "account-switcher.label.current": "(Dabartinė)",

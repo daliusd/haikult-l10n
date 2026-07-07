@@ -20,7 +20,7 @@
   "backend.error.INVOICE_DATE_TOO_LATE": "Creation date {date} must be <= {maxDate}",
   "backend.error.INVOICE_CREATE_FAILED": "Failed to create invoice",
   "backend.error.INVOICE_PDF_NOT_FOUND": "PDF file not found",
-  "backend.error.INVOICE_LIMIT_REACHED": "You've reached the limit of the free plan. Upgrade to Pro for unlimited invoices or delete some invoices to continue.",
+  "backend.error.INVOICE_LIMIT_REACHED": "You've reached the 500-document limit of the free plan. Upgrade to Pro for unlimited invoices and expenses, or delete some documents to continue.",
   "backend.error.INVOICE_LOCKED": "This invoice is locked and cannot be modified. Locked invoices are immutable for compliance purposes. To make corrections, create a credit invoice to cancel this one, then create a new corrected invoice.",
   "backend.error.EXPENSE_NOT_FOUND": "Expense not found",
   "backend.error.EXPENSE_CREATE_FAILED": "Failed to create expense",

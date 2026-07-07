@@ -1,7 +1,7 @@
 ---
 title: 'Pakeitimai'
 date: '2021-04-02'
-modified: '2026-03-27'
+modified: '2026-05-05'
 ---
 
 Čia rasite kas yra pakeista sistemoje pagal datą (nuo naujausių
@@ -9,6 +9,16 @@ pakeitimų iki seniausių).
 
 Jei turite klausimų ar pasiūlymų rašykite el. paštu
 [dalius.dobravolskas@gmail.com](mailto:dalius.dobravolskas@gmail.com).
+
+## 2026-05-05
+
+- Apmokėjimo termino palaikymas sąskaitoms
+
+## 2026-05-04
+
+- XLSX eksportas sąskaitoms
+- [Pigu integracija](/lt/pigu-integration) (pigu.lt, 220.lv, kaup24.ee, hobbyhall.fi)
+- Galimybė prie sąskaitos pridėti nuotraukas siuntimo lange
 
 ## 2026-03-27
 

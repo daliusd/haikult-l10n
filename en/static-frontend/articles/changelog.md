@@ -1,7 +1,7 @@
 ---
 title: 'Changelog'
 date: '2021-04-02'
-modified: '2026-03-27'
+modified: '2026-05-05'
 ---
 
 Here you'll find what has been changed in the system by date (from newest
@@ -9,6 +9,16 @@ to oldest changes).
 
 If you have questions or suggestions, please email
 [dalius.dobravolskas@gmail.com](mailto:dalius.dobravolskas@gmail.com).
+
+## 2026-05-05
+
+- Due date support for invoices
+
+## 2026-05-04
+
+- XLSX export for invoices
+- [Pigu marketplace integration](/en/pigu-integration) (pigu.lt, 220.lv, kaup24.ee, hobbyhall.fi)
+- Option to add images as attachments in "Preview and Send" modal
 
 ## 2026-03-27
 

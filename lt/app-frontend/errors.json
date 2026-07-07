@@ -20,7 +20,7 @@
   "backend.error.INVOICE_DATE_TOO_LATE": "Sukūrimo data {date} turi būti <= {maxDate}",
   "backend.error.INVOICE_CREATE_FAILED": "Nepavyko sukurti sąskaitos faktūros",
   "backend.error.INVOICE_PDF_NOT_FOUND": "PDF failas nerastas",
-  "backend.error.INVOICE_LIMIT_REACHED": "Pasiekėte nemokamo plano limitą. Pereikite į Pro planą neribotam sąskaitų skaičiui arba ištrinkite keletą sąskaitų, kad galėtumėte tęsti.",
+  "backend.error.INVOICE_LIMIT_REACHED": "Pasiekėte nemokamo plano 500 dokumentų limitą. Pereikite į Pro planą neribotam sąskaitų ir išlaidų skaičiui arba ištrinkite keletą dokumentų, kad galėtumėte tęsti.",
   "backend.error.INVOICE_LOCKED": "Ši sąskaita faktūra užrakinta ir negali būti keičiama. Užrakintos sąskaitos faktūros yra nekintamos dėl atitikties reikalavimų. Norėdami ištaisyti klaidas, sukurkite kreditinę sąskaitą faktūrą šiai atšaukti, tada sukurkite naują ištaisytą sąskaitą faktūrą.",
   "backend.error.EXPENSE_NOT_FOUND": "Išlaida nerasta",
   "backend.error.EXPENSE_CREATE_FAILED": "Nepavyko sukurti išlaidos",

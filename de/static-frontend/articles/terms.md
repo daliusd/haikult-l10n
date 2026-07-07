@@ -8,8 +8,8 @@ showDate: false
 Haiku.lt bietet eine einfache und schnelle Möglichkeit, Rechnungen zu verwalten. Bevor Sie
 den Haiku.lt-Dienst nutzen, lesen Sie bitte die unten aufgeführten Nutzungsbedingungen.
 
-Durch die Nutzung des Systems stimmt der Benutzer den folgenden Bedingungen mit dem
-Betreiber des Haiku.lt-Dienstes zu:
+Durch die Nutzung des Systems erklärt sich der Benutzer mit den folgenden Bedingungen
+gegenüber dem Betreiber des Haiku.lt-Dienstes einverstanden:
 
 ## Daten und Datenschutz
 
@@ -49,7 +49,7 @@ Betreiber des Haiku.lt-Dienstes zu:
 - Der Betreiber ist nicht verantwortlich für die genaue Buchhaltung des Benutzers, da Haiku.lt
   kein vollständiges Buchhaltungstool ist.
 
-- Haiku.lt wird "wie besehen" ohne jegliche Garantien bereitgestellt.
+- Haiku.lt wird „wie besehen" ohne jegliche Garantien bereitgestellt.
 
 - Der Betreiber behält sich das Recht vor, den Dienst mit
   angemessener Benachrichtigung der Benutzer zu ändern oder einzustellen.

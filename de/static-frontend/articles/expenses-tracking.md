@@ -1,80 +1,69 @@
 ---
-title: 'Geschäftsausgaben mit Haiku verfolgen — intelligentes Rechnungsmanagement, jetzt integriert'
+title: 'Ausgabenverwaltung'
 date: '2026-03-22'
-modified: '2026-03-22'
-showDate: true
+modified: '2026-05-24'
 ---
 
-Geschäftsausgaben zu verwalten ist eine jener Aufgaben, die niemand gerne macht, aber jeder erledigen muss. E-Mail-Anhänge durchsuchen, Rechnungsnummern manuell eingeben und versuchen, sich zu erinnern, wofür die €47,80 vor drei Wochen waren — das kostet echte Zeit. Deshalb haben wir die Ausgabenverfolgung direkt in Haiku integriert.
+Haiku verwaltet Geschäftsausgaben gemeinsam mit Ihren Rechnungen. Laden Sie eine Eingangsrechnung oder Quittung hoch, lassen Sie die Daten möglichst automatisch extrahieren und halten Sie Ihre Dateien in Haiku und/oder Google Drive geordnet.
 
-## Was ist neu
+## Die Ausgabenseite
 
-Haiku enthält jetzt ein vollständiges Ausgabenverwaltungssystem. Sie können Rechnungen und Belege hochladen, Daten automatisch extrahieren lassen, Dateien sicher speichern und alles mit Google Drive synchronisieren — alles ohne die App zu verlassen.
+![Ausgabenseite](/screenshots/expenses-tracking/de/step-1-expenses-list.png)
 
-## Eine Ausgabe in 4 Schritten hinzufügen
+Die **Ausgaben**-Seite listet alle erfassten Posten und bietet Schnellzugriff zum Bearbeiten, Löschen, Öffnen der gespeicherten Datei oder Herunterladen des Originals.
 
-Das Hinzufügen einer neuen Ausgabe ist unkompliziert. Klicken Sie auf **Neue Ausgabe** und folgen Sie den Schritten.
+Filter:
+
+- **Zeitraum** — auf einen Monat, ein Quartal oder einen eigenen Zeitraum eingrenzen.
+- **Suche nach Beschreibung** — Ausgabe per Stichwort finden.
+- **Laufende Summe** — Anzahl und Summe der zum aktuellen Filter passenden Ausgaben oben auf der Seite.
+
+Jede Karte zeigt Beschreibung, Verkäufer, Betrag, Datum und Speicherstatus (Haiku, Drive oder beides).
+
+## Eine Ausgabe hinzufügen
+
+Klicken Sie auf der Ausgabenseite auf **Neue Ausgabe**. Ein vierstufiger Assistent öffnet sich.
 
 ### Schritt 1 — Dokument hochladen
 
-Ziehen Sie Ihre Rechnung oder Quittung per Drag & Drop oder wählen Sie sie aus. Unterstützte Formate sind PDF, JPEG, PNG und XML. Das deckt alles ab — von gescannten Papierbelegen bis zu elektronischen Rechnungen Ihrer Lieferanten.
+Datei per Drag-and-drop oder Auswahl hochladen. Unterstützte Formate: **PDF**, **JPEG**, **PNG**, **XML** — geeignet für gescannte Quittungen und elektronische Rechnungen.
 
-### Schritt 2 — Automatische Verarbeitung
+### Schritt 2 — Automatisches Auslesen
 
-Sobald Sie die Datei hochladen, versucht Haiku sofort, sie zu lesen. Wenn Ihr Dokument eine Standard-E-Rechnung ist (wie sie viele Buchhaltungsprogramme und EU-Lieferanten erstellen), extrahiert Haiku automatisch Rechnungsnummer, Verkäufername, Positionen, Gesamtbetrag und Ausstellungsdatum. Keine manuelle Eingabe erforderlich.
+Ist die Datei eine standardisierte elektronische Rechnung (Factur-X PDF, in Frankreich und Deutschland üblich; e-invoice XML), extrahiert Haiku:
 
-Bei gescannten Bildern oder unstrukturierten PDFs füllen Sie die Details im nächsten Schritt selbst aus.
+- Rechnungsnummer
+- Verkäufername
+- Positionen
+- Gesamtbetrag
+- Rechnungsdatum
+
+Bei gescannten Bildern oder unstrukturierten PDFs öffnet sich das Formular leer; die Daten geben Sie selbst ein.
 
 ### Schritt 3 — Prüfen, bearbeiten und Speicherort wählen
 
-Sie sehen ein vorausgefülltes Formular mit allem, was Haiku extrahiert hat. Prüfen Sie es, nehmen Sie Korrekturen vor und ergänzen Sie Fehlndes.
+Ein vorausgefülltes Formular erscheint. Korrigieren Sie, was nicht stimmt, und wählen Sie, wo die Datei abgelegt wird:
 
-Sie wählen auch, wo die Datei gespeichert werden soll:
+- **In Haiku hochladen** — Dateien bis 2 MB, sicher in Ihrem Konto gespeichert.
+- **In Google Drive hochladen** — wird in einen eigenen Ordner Ihres Drive gesendet (erfordert Autorisierung — siehe [Google Drive-Integration](/de/google-drive-integration)).
 
-- **In Haiku hochladen** — speichert die Datei sicher im System (Dateien bis 2 MB)
-- **In Google Drive hochladen** — sendet die Datei in einen dedizierten Ordner in Ihrem Drive (erfordert Google Drive-Genehmigung)
-
-Sie können eines, beides oder keines wählen — der Ausgabeneintrag wird in jedem Fall in Ihrem Konto gespeichert.
+Sie können eins, beides oder nichts wählen. Der Ausgaben-Eintrag selbst wird unabhängig davon gespeichert.
 
 ### Schritt 4 — Gespeichert
 
-Ihre Ausgabe ist erfasst. Sie sehen die Bestätigung und können sofort eine weitere hinzufügen oder zur Ausgabenliste wechseln.
-
-## Intelligentes Rechnungslesen
-
-Haiku kann Rechnungen in Standard-Elektronikformaten lesen, die in ganz Europa und international verwendet werden. Wenn Ihr Lieferant Ihnen eine Factur-X PDF (üblich in Frankreich und Deutschland) oder eine E-Rechnung als XML-Datei sendet, verarbeitet Haiku diese korrekt — Beträge, Positionen und Daten werden ohne manuellen Aufwand extrahiert.
-
-Für alles andere — Belegfotos, normale PDFs — füllen Sie die Details selbst aus, und Haiku speichert und organisiert sie für Sie.
-
-## Google Drive-Integration
-
-Wenn Sie Google Drive mit Ihrem Haiku-Konto verbunden haben, können Sie Ausgabendateien direkt in Drive hochladen. Haiku erstellt automatisch eine übersichtliche Ordnerstruktur:
-
-```
-Haiku.lt
-  └── Expenses
-        └── 2026
-              └── ihre-rechnung.pdf
-```
-
-Dateien werden nach Ausgabenbeschreibung und Verkäufer benannt, sodass Sie sie später leicht finden — ohne sie zu öffnen.
-
-## Ausgaben verwalten
-
-Die Seite **Ausgaben** gibt Ihnen einen vollständigen Überblick über Ihre erfassten Ausgaben.
-
-- **Nach Datumsbereich filtern** — konzentrieren Sie sich auf einen bestimmten Monat, ein Quartal oder einen benutzerdefinierten Zeitraum
-- **Nach Beschreibung suchen** — finden Sie eine bestimmte Ausgabe per Stichwort
-- **Laufende Summe** — sehen Sie Anzahl und Summe der Ausgaben, die Ihrem aktuellen Filter entsprechen
-
-Jede Ausgabenkarte zeigt die wichtigsten Details und ermöglicht schnellen Zugriff auf Bearbeiten, Löschen, die Google Drive-Datei öffnen oder die gespeicherte Rechnung direkt aus Haiku herunterladen.
+Bestätigung erscheint. Von hier können Sie eine weitere Ausgabe hinzufügen oder zur Liste zurückkehren.
 
 ## Bearbeiten und Löschen
 
-Einen Fehler gemacht? Kein Problem. Jede Ausgabe hat eine **Bearbeiten**-Schaltfläche, mit der Sie jedes Feld aktualisieren können — Beschreibung, Verkäufer, Betrag, Datum, Positionen. Wenn Sie einen Eintrag vollständig entfernen möchten, ist die **Löschen**-Schaltfläche mit einem Bestätigungsschritt versehen, damit nichts versehentlich gelöscht wird.
+Jede Ausgabe hat einen **Bearbeiten**-Knopf, mit dem Sie jedes Feld aktualisieren können — Beschreibung, Verkäufer, Betrag, Datum, Positionen, Speicherwahl. Der **Löschen**-Knopf entfernt den Eintrag nach einer Bestätigung.
 
-## Loslegen
+Das Löschen einer Ausgabe löscht nicht die Google-Drive-Datei. Wenn Sie auch die Cloud-Kopie entfernen möchten, nutzen Sie zuerst **Aus Drive löschen** auf der Karte.
 
-Wenn Sie Haiku bereits nutzen, ist der Bereich Ausgaben jetzt im Navigationsmenü verfügbar. Gehen Sie dorthin, klicken Sie auf **Neue Ausgabe** und laden Sie Ihre nächste Rechnung hoch.
+## Intelligentes Rechnungsauslesen
 
-Wenn Sie ein Buchhaltungssystem haben, das elektronische Rechnungen exportiert, probieren Sie diese zuerst — die automatische Verarbeitung spart Ihnen am meisten Zeit.
+Haiku liest Rechnungen in den in Europa gebräuchlichen elektronischen Formaten:
+
+- **Factur-X / ZUGFeRD** PDFs — bei deutschen und französischen Lieferanten verbreitet.
+- **UBL / Peppol / EN 16931** XML — der EU-Standard für E-Rechnungen.
+
+Bei nicht unterstützten Formaten oder Fotos bleiben die Felder in Schritt 3 leer und werden manuell ausgefüllt.

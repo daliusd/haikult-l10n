@@ -1,13 +1,27 @@
 ---
-title: 'How to Send Professional Invoices from Your Gmail Account (Not noreply@)'
+title: 'How to Send an Invoice on Gmail (From Your Own Address, Not noreply@)'
+metaTitle: 'How to Send an Invoice on Gmail'
+description: 'Send invoices straight from your own Gmail address — not a noreply@ — so clients trust them and they land in the inbox. Here is the simple step-by-step setup.'
 date: '2026-01-08'
-modified: '2026-01-08'
+modified: '2026-06-26'
 showDate: true
 ---
 
 When you send an invoice to a client, the email address they see matters more than you might think. An email from "noreply@invoicingapp.com" or "invoices@random-service.com" doesn't inspire confidence. It looks automated, impersonal, and frankly, a bit suspicious. Clients are more likely to ignore it, send it to spam, or hesitate before opening the attachment.
 
 What if your invoices could arrive from your actual business email address instead? The good news is that they can, and it's easier than you might think. This guide will show you how to send professional invoices directly from your Gmail account, compare the technical approaches available, and explain why this matters for your business.
+
+## How to Send an Invoice on Gmail
+
+Here is the short version — the whole setup takes a few minutes and only has to be done once:
+
+1. **Sign in to [Haiku.lt](https://haiku.lt) with your Google account.** Use the same Gmail address you want invoices to come from.
+2. **Grant permission to send email.** Google's OAuth2 consent screen asks once for email-sending permission. No password is stored, and you can revoke access anytime from your Google account.
+3. **Create your invoice** (or open an existing one) and add your client's email address.
+4. **Customize the email** — subject line, message template, logo, and brand colors — so it matches your business.
+5. **Click send.** The invoice goes out through Gmail and arrives in your client's inbox from your own Gmail address, with the PDF attached.
+
+That's it. Because the email genuinely comes from your Gmail account, clients see a sender they recognize, replies come straight back to you, and Gmail's authentication (SPF, DKIM, DMARC) keeps it out of spam. The rest of this guide explains why this works and how it compares to the old SMTP way of sending.
 
 ## The Problem with Generic Invoice Emails
 
@@ -70,45 +84,9 @@ No passwords are ever stored. No complex configuration is required. And you can 
 
 When your client receives your invoice, they see your email address and your name. It looks like you sent them an email directly - because you effectively did. This small detail makes a surprisingly big difference in how your invoices are perceived and handled.
 
-## Step-by-Step Setup Guide
+## How to Set It Up
 
-Setting up professional invoice sending with your Gmail account in Haiku.lt takes just a few minutes.
-
-### Step 1: Authorize Gmail Access
-
-When you first sign in to Haiku.lt, you'll be asked to sign in with your Google account. During this process, Google will show you the permissions Haiku.lt is requesting, including the ability to send emails on your behalf.
-
-Review the permissions and click "Allow" to grant access. This is a one-time authorization. If you initially signed in without granting email permission, you can sign out and sign in again to add this permission.
-
-### Step 2: Configure Your Email Settings
-
-Once you've authorized email access, navigate to the [Settings](/app/settings) page in Haiku.lt. Here you can customize how your invoice emails look and what information they contain.
-
-**Customize the email subject:** You can create dynamic email subjects using variables like `{{invoiceNo}}` for the invoice number, `{{buyer}}` for the buyer's name, `{{price}}` for the invoice amount, and `{{invoiceDate}}` for the date. For example: "Invoice {{invoiceNo}} from {{seller}} - {{price}}"
-
-**Choose an email template:** Haiku.lt offers five built-in templates:
-- **Plain text** - Simple, universally compatible text format
-- **Simple HTML** - Beautifully formatted HTML email
-- **With logo** - HTML template featuring your company logo
-- **With logo and price** - Shows your logo and the invoice amount
-- **With logo, price and additional info** - Displays full invoice information
-
-For advanced users, you can create custom MJML templates for complete control over email design.
-
-**Upload your logo:** Add your company logo to make branded emails even more professional.
-
-**Set brand colors:** Customize the colors used in HTML email templates to match your brand identity.
-
-### Step 3: Send Your First Invoice
-
-Creating and sending an invoice is straightforward:
-
-1. Create your invoice with all the necessary details (buyer, seller, line items, etc.)
-2. Enter the buyer's email address in the invoice form
-3. Click the "Send invoice" button
-4. The invoice is automatically locked (preventing further edits) and sent immediately from your Gmail account
-
-Your client receives an email from your actual Gmail address with the invoice PDF attached. You can find detailed information about the sending process in our [Sending Invoices](/en/invoice-sending) guide.
+Setup takes a few minutes: sign in with Google and grant email permission, then customize your subject, template, logo, and brand colors. See the step-by-step walkthrough in [Email setup: Gmail](/en/email-setup-gmail), and tune the wording with [Email templates and variables](/en/email-templates-and-variables) and [Brand customization](/en/brand-customization).
 
 ## Deliverability Benefits of Sending from Your Gmail Account
 
@@ -126,26 +104,12 @@ Using your real Gmail address to send invoices provides significant deliverabili
 
 **Higher open rates:** When clients recognize and trust the sender, they open emails faster. This translates directly to faster invoice review and ultimately faster payment.
 
-## Email Customization Options
-
-Beyond simply sending from your Gmail account, Haiku.lt offers extensive customization options to make your invoice emails match your brand and communication style.
-
-You can choose from multiple templates ranging from simple plain text to beautifully formatted HTML emails with your logo, brand colors, and invoice details. The templates use MJML technology, which ensures they look great across all email clients - from Gmail to Outlook to mobile email apps.
-
-Dynamic variables let you personalize each email automatically. Include the invoice number, buyer name, total amount, invoice date, and other details without manually typing them for each invoice. The system fills in the variables automatically based on your invoice data.
-
-For power users who want complete control, custom MJML templates are supported. You can create templates that perfectly match your brand guidelines. If you're not familiar with MJML, you can even ask AI tools to help generate templates based on your description of how you want the email to look.
-
-All of this customization combines with the professional delivery from your Gmail account to create invoice emails that represent your business exactly as you want.
-
 ## Start Sending Professional Invoices Today
 
 Sending invoices from your actual Gmail account rather than a generic service address is a small change that makes a big difference. Your clients see a familiar, trusted email address. Your invoices avoid spam folders. Your business communications feel more personal and professional.
 
 With Haiku.lt, this professional invoice delivery is available on both the free and Pro plans. The free tier includes 500 invoices with full email sending features - more than enough for most freelancers to use for years. If you need unlimited invoices and additional customization options, the Pro plan is just €5 per month or €48 per year.
 
-Setting up takes just a few minutes: authorize Gmail access, customize your email template, and start sending professional invoices from your own email address. No complex SMTP configuration. No stored passwords. No generic sender addresses.
+Setup takes just a few minutes — no complex SMTP configuration, no stored passwords, no generic sender addresses. Your invoices deserve to look professional from sender to signature. Start sending them from your Gmail account today at [haiku.lt](https://haiku.lt).
 
-Your invoices deserve to look professional from sender to signature. Start sending them from your Gmail account today at [haiku.lt](https://haiku.lt).
-
-For more information, check out our detailed [Sending Invoices](/en/invoice-sending) guide or visit our [Help](/en/help) page.
+For setup steps, see [Email setup: Gmail](/en/email-setup-gmail). For more on the sending flow, see [Sending Invoices](/en/invoice-sending) or the [Help](/en/help) page.

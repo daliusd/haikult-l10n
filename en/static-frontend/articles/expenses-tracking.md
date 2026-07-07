@@ -1,80 +1,69 @@
 ---
-title: 'Track Your Business Expenses with Haiku — Smart Invoice Management, Now Built In'
+title: 'Expense Tracking'
 date: '2026-03-22'
-modified: '2026-03-22'
-showDate: true
+modified: '2026-05-24'
 ---
 
-Managing business expenses is one of those tasks that nobody enjoys but everyone needs. Digging through email attachments, manually typing invoice numbers, and trying to remember what that €47.80 charge was from three weeks ago — it adds up to real lost time. That's why we've built expense tracking directly into Haiku.
+Haiku tracks business expenses alongside your invoices. Upload an invoice or receipt, have the data extracted automatically when possible, and keep files organised in Haiku and/or Google Drive.
 
-## What's New
+## The Expenses Page
 
-Haiku now includes a full expense management system. You can upload invoices and receipts, have the data extracted automatically, store files securely, and sync everything to Google Drive — all without leaving the app.
+![Expenses page](/screenshots/expenses-tracking/en/step-1-expenses-list.png)
 
-## Adding an Expense: A Guided 4-Step Flow
+The **Expenses** page lists all recorded expenses with quick access to edit, delete, open the stored file, or download the original.
 
-Adding a new expense is straightforward. Click **New Expense** and follow the steps.
+Filtering:
 
-### Step 1 — Upload Your Document
+- **Date range** — focus on a specific month, quarter, or custom period.
+- **Search by description** — find an expense by keyword.
+- **Running total** — count and sum of expenses matching the current filter, shown at the top.
 
-Drag and drop or select your invoice or receipt. Supported formats are PDF, JPEG, PNG, and XML. That covers everything from scanned paper receipts to electronic invoices from your suppliers.
+Each card shows description, seller, amount, date, and storage status (Haiku, Drive, or both).
+
+## Adding an Expense
+
+Click **New Expense** on the expenses page. A 4-step wizard opens.
+
+### Step 1 — Upload the Document
+
+Drag and drop or pick a file. Supported formats: **PDF**, **JPEG**, **PNG**, **XML** — covers scanned receipts and electronic invoices.
 
 ### Step 2 — Automatic Parsing
 
-Once you upload the file, Haiku immediately tries to read it. If your document is a standard electronic invoice (the kind many accounting software packages and EU suppliers generate), Haiku will extract the invoice number, seller name, line items, total amount, and issue date — automatically. No typing required.
+If the file is a standard electronic invoice (Factur-X PDF, common in France and Germany; e-invoice XML), Haiku extracts:
 
-For scanned images or non-structured PDFs, you'll fill in the details yourself in the next step.
+- Invoice number
+- Seller name
+- Line items
+- Total amount
+- Issue date
+
+For scanned images or non-structured PDFs, the form opens empty and you fill in the details.
 
 ### Step 3 — Review, Edit, and Choose Storage
 
-You'll see a pre-filled form with everything Haiku extracted. Review it, make any corrections, and fill in anything that was missed.
+A pre-filled form appears. Correct anything that's off, then choose where the file is stored:
 
-You also choose where to store the file:
+- **Upload to Haiku** — files up to 2 MB, stored securely in your account.
+- **Upload to Google Drive** — sent to a dedicated folder in your Drive (requires authorization — see [Google Drive integration](/en/google-drive-integration)).
 
-- **Upload to Haiku** — stores the file securely in the system (files up to 2 MB)
-- **Upload to Google Drive** — sends the file to a dedicated folder in your Drive (requires Google Drive authorization)
-
-You can choose one, both, or neither — the expense record is always saved to your account regardless.
+You can pick one, both, or neither. The expense record itself is always saved regardless of where the file goes.
 
 ### Step 4 — Saved
 
-Your expense is recorded. You'll see the confirmation and can immediately add another or head to the expenses list.
-
-## Smart Invoice Reading
-
-Haiku can read invoices in standard electronic formats used across Europe and internationally. If your supplier sends you a Factur-X PDF (common in France and Germany) or an e-invoice XML file, Haiku will parse it correctly — pulling out amounts, line items, and dates without any manual work on your part.
-
-For everything else — photos of receipts, regular PDFs — you fill in the details, and Haiku stores and organises them for you.
-
-## Google Drive Integration
-
-If you've connected Google Drive to your Haiku account, you can upload expense files directly to Drive. Haiku automatically creates a tidy folder structure:
-
-```
-Haiku.lt
-  └── Expenses
-        └── 2026
-              └── your-invoice.pdf
-```
-
-Files are named based on the expense description and seller, so they're easy to find later without opening them.
-
-## Managing Your Expenses
-
-The **Expenses** page gives you a full view of your recorded expenses.
-
-- **Filter by date range** — focus on a specific month, quarter, or custom period
-- **Search by description** — find a specific expense by keyword
-- **Running total** — see the count and sum of expenses matching your current filter at a glance
-
-Each expense card shows the key details and gives you quick access to edit, delete, open the Google Drive file, or download the stored invoice directly from Haiku.
+Confirmation appears. From here you can add another expense or return to the list.
 
 ## Editing and Deleting
 
-Made a mistake? No problem. Every expense has an **Edit** button that lets you update any field — description, seller, amount, date, line items. If you need to remove a record entirely, the **Delete** button is there with a confirmation step so nothing gets removed by accident.
+Each expense has an **Edit** button to update any field — description, seller, amount, date, line items, storage choice. The **Delete** button removes the record after a confirmation step.
 
-## Get Started
+Deleting an expense does not delete the Google Drive file. Use the **Delete from Drive** action on the card first if you also want to remove the cloud copy.
 
-If you're already using Haiku, the Expenses section is available in the navigation menu now. Head there, click **New Expense**, and try uploading your next invoice.
+## Smart Invoice Reading
 
-If you have an accounting system that exports electronic invoices, give those a try first — the automatic parsing will save you the most time.
+Haiku reads invoices in standard electronic formats used across Europe:
+
+- **Factur-X / ZUGFeRD** PDFs — common with German and French suppliers.
+- **UBL / Peppol / EN 16931** XML — the EU e-invoicing standard.
+
+For unsupported formats or photographs, fields stay empty in Step 3 and you enter them manually.

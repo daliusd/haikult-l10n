@@ -1,50 +1,54 @@
 ---
 title: 'Help'
 date: '2021-04-23'
-modified: '2025-11-17'
+modified: '2026-05-24'
 ---
 
-Haiku.lt is designed to help you quickly and easily create invoices and manage
-your billing workflow.
+Haiku.lt is designed to help you quickly and easily create invoices and manage your billing workflow.
 
-If you're curious about why you should choose Haiku.lt, take a look at our
-[philosophy](/en/philosophy).
+If you're curious about why you should choose Haiku.lt, take a look at our [philosophy](/en/philosophy). You can also review the [changelog](/en/changelog) for the latest features and improvements.
 
-You can also review the [changelog](/en/changelog) to see the latest
-features and improvements.
+## Creating invoices
 
-## Invoice Management
+- [Create your first invoice](/en/create-first-invoice) — a step-by-step walkthrough for new users.
+- [Invoice series and numbering](/en/invoice-series-and-numbering) — how series names work and how sequential numbering is enforced.
+- [Invoice fields reference](/en/invoice-fields-reference) — every field on the new-invoice form explained.
+- [Due dates and payment terms](/en/due-dates-and-payment-terms) — payment terms, due dates, and overdue tracking.
+- [Proforma invoices](/en/proforma-invoices) — when to use them and how they differ from regular invoices.
+- [Credit invoices](/en/credit-invoices) — issuing refunds without deleting the original invoice.
 
-The system provides comprehensive tools for managing your invoices:
+## Managing invoices
 
-- [Creating and editing invoices](/en/invoice-management)
+- [Editing and locking invoices](/en/editing-and-locking-invoices) — making changes, marking paid, locking, and when to delete.
+- [Batch-editing invoices](/en/batch-edit-invoices) — apply changes to many invoices at once via the multi-edit wizard.
 
-  Learn how to create invoices with proper series numbers, add buyer and
-  seller information, manage line items, and work with different invoice
-  types including proforma and credit invoices.
+## Bulk creation
 
-- [Sending invoices](/en/invoice-sending)
+- [Create invoices from Google Calendar](/en/bulk-create-from-calendar) — generate invoices for a whole month from your calendar events.
 
-  Discover how to send invoices directly from Haiku.lt using Gmail
-  integration, customize email templates, and use variables to personalize
-  your invoice emails.
+## Sending invoices
 
-- [Additional information programming](/en/extra-info-programming)
+- [Gmail (OAuth) setup](/en/email-setup-gmail) — send directly from your Gmail account, no password sharing.
+- [SMTP setup](/en/email-setup-smtp) — works with any email provider; required for non-Gmail users.
+- [Email templates and variables](/en/email-templates-and-variables) — customize subject and body using Handlebars variables and line-item loops.
+- [Brand customization](/en/brand-customization) — upload a logo and set brand colors used by the HTML templates.
 
-  Advanced feature for programmers: automatically populate the additional
-  information field based on invoice data using JavaScript.
+## Customization & advanced
 
-- [Invoice Markup Language (InML)](/en/inml)
+- [Additional information programming](/en/extra-info-programming) — populate the additional-info field automatically with JavaScript.
+- [InML custom PDF layouts](/en/inml-custom-pdf) — customize the invoice PDF using the InML template language.
 
-  Customize your invoice PDF layout using InML, an XML-based template
-  language for defining invoice structure, styling, and content.
+## Expenses
 
-## Additional Information
+- [Expense tracking](/en/expenses-tracking) — record business expenses and keep receipts together with your invoices.
+- [Google Drive integration](/en/google-drive-integration) — automatically archive invoice PDFs and expense receipts into a tidy Drive folder structure.
 
-For more details:
+## Integrations
+
+- [Pigu integration](/en/pigu-integration) — pull marketplace orders and turn them into invoices.
+
+## Additional information
 
 - [About](/en/about)
-
 - [Privacy Policy](/en/privacy)
-
 - [Terms of Service](/en/terms)

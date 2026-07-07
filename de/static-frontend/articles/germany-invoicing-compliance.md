@@ -19,7 +19,7 @@ Deutschland bietet eine **Kleinunternehmerregelung**: Wenn Ihr Jahresumsatz unte
 - **7%** - Ermäßigter Satz (Lebensmittel, Bücher, Zeitungen, öffentliche Verkehrsmittel, kulturelle Veranstaltungen)
 - **0%** - Exporte und Lieferungen innerhalb der EU (mit gültiger MwSt.-Nummer)
 
-## Obligatorische Felder der Rechnung
+## Pflichtangaben auf Rechnungen
 
 Jede **vollständige Rechnung** (über 250 €) muss enthalten:
 
@@ -33,9 +33,9 @@ Jede **vollständige Rechnung** (über 250 €) muss enthalten:
 > Für **Kleinbetragsrechnungen** unter 250 € gelten geringere Anforderungen - Name und Adresse des Käufers sind nicht erforderlich, nur Angaben zum Verkäufer, Datum, Beschreibung, Mehrwertsteuersatz und Gesamtbetrag.
 
 **Besondere Textanforderungen:**
-- **Reverse charge**: "Steuerschuldnerschaft des Leistungsempfängers"
-- **Intra-EU-Lieferung**: "Innergemeinschaftliche Lieferung"
-- **Kleingewerbeausnahme**: "Kein Ausweis von Umsatzsteuer, da Kleinunternehmer gemäß § 19 UStG"
+- **Reverse charge**: „Steuerschuldnerschaft des Leistungsempfängers"
+- **Innergemeinschaftliche Lieferung**: „Innergemeinschaftliche Lieferung"
+- **Kleinunternehmerregelung**: „Kein Ausweis von Umsatzsteuer, da Kleinunternehmer gemäß § 19 UStG"
 
 ## Rechnungsnummerierung
 
@@ -57,9 +57,9 @@ Sie können jährlich zurücksetzen, solange das Jahr in der Nummer enthalten is
 E-Invoicing bedeutet **strukturierte elektronische Rechnungen** mit maschinenlesbaren XML-Daten, nicht nur PDF-E-Mails. Deutschland akzeptiert **ZUGFeRD** (hybrides PDF mit eingebettetem CII XML) und **XRechnung** (reines XML), beide EN 16931-konform.
 
 **Zeitplan:**
-- **Januar 1, 2025**: Alle B2B-Unternehmen müssen in der Lage sein, **elektronische Rechnungen** zu empfangen (ein E-Mail-Posteingang ist ausreichend; es ist kein spezielles System erforderlich)
-- **Januar 1, 2027**: Große Unternehmen (ab 800.000 Euro Umsatz) müssen **elektronische Rechnungen** ausstellen
-- **Januar 1, 2028**: Alle Unternehmen müssen **elektronische Rechnungen** ausstellen
+- **1. Januar 2025**: Alle B2B-Unternehmen müssen in der Lage sein, elektronische Rechnungen zu **empfangen** (ein E-Mail-Posteingang ist ausreichend; es ist kein spezielles System erforderlich)
+- **1. Januar 2027**: Große Unternehmen (ab 800.000 € Umsatz) müssen elektronische Rechnungen **ausstellen**
+- **1. Januar 2028**: Alle Unternehmen müssen elektronische Rechnungen **ausstellen**
 
 **B2C-Ausnahme**: Wenn Sie Rechnungen an Verbraucher ausstellen, bleiben die herkömmlichen PDF-Rechnungen gültig. Die elektronische Rechnungsstellung gilt nur für B2B-Transaktionen zwischen mehrwertsteuerlich registrierten Unternehmen.
 
@@ -110,7 +110,7 @@ Für elektronische Rechnungen (ZUGFeRD/XRechnung) ist die XML-Komponente das rec
 **Mehrwertsteuer-Berichterstattung:**
 - Monatliche/vierteljährliche MwSt.-Erklärungen, fällig bis zum 10. des Folgemonats
 - Jährliche Umsatzsteuererklärung fällig am 31. Mai
-- EG-Verkaufsliste (ZM) monatlich/vierteljährlich bis zum 25.
+- Zusammenfassende Meldung (ZM) monatlich/vierteljährlich bis zum 25.
 - **Alle Einreichungen müssen elektronisch** über das ELSTER-Portal erfolgen
 
 **Strafzahlungen**: Die Nichteinhaltung der GoBD kann zu Geldstrafen von bis zu 25.000 €, Steuerschätzungen (in der Regel zu hoch angesetzt) und Nachzahlungen mit Zinsen führen. Die Strafen hängen davon ab, ob die Mängel Ihre finanzielle Lage verzerren - kleinere Fehler sind in der Regel korrigierbar.
@@ -149,7 +149,7 @@ Haiku.lt enthält jetzt umfassende Funktionen zur Einhaltung der GoBD:
 
 **E-Rechnungseingang**: Ab Januar 2025 müssen alle deutschen Unternehmen in der Lage sein, strukturierte E-Rechnungen zu empfangen. Laut dem Bundesministerium der Finanzen (BMF) reicht die Bereitstellung eines E-Mail-Postfachs aus, um diese Anforderung zu erfüllen - ein spezielles E-Invoicing-System oder eine App-Funktion ist nicht erforderlich.
 
-## Praktische Tipps und Tricks
+## Praktische Erkenntnisse
 
 **B2C-Unternehmen**: Standard-PDF-Rechnungen mit allen Pflichtfeldern sind ausreichend. Keine elektronische Rechnungsstellung erforderlich.
 
@@ -159,14 +159,14 @@ Haiku.lt enthält jetzt umfassende Funktionen zur Einhaltung der GoBD:
 
 **Aufbewahrung**: Bewahren Sie Rechnungen 10 Jahre lang auf. Die Speicherung in der Cloud ist in Ordnung, wenn die Integrität und Zugänglichkeit gewahrt bleibt.
 
-**Mehrwertsteuerablage**: Setzen Sie Erinnerungen für den 10. eines jeden Monats (oder vierteljährlich). Verspätete Einreichungen sind ein häufiges Problem bei der Einhaltung von Vorschriften.
+**Umsatzsteuer-Voranmeldung**: Setzen Sie Erinnerungen für den 10. eines jeden Monats (oder vierteljährlich). Verspätete Einreichungen sind ein häufiges Problem bei der Einhaltung von Vorschriften.
 
 ## Die Quintessenz
 
 Die deutschen Anforderungen an die Rechnungsstellung sind detailliert, aber überschaubar:
 
 - **Pflichtfelder**: Haiku.lt deckt alle Pflichtfelder ab
-- **E-Fakturierung**: Das Format ZUGFeRD/EN 16931 (das Haiku.lt generiert) erfüllt alle Anforderungen für B2B-Rechnungen
+- **E-Rechnung**: Das Format ZUGFeRD/EN 16931 (das Haiku.lt generiert) erfüllt alle Anforderungen für B2B-Rechnungen
 - **B2B-Empfang**: E-Mail-Posteingang ist gemäß BMF ausreichend - kein spezielles System erforderlich
 - **B2C**: PDF-Rechnungen bleiben gültig - kein E-Invoicing erforderlich
 - **GoBD**: Haiku.lt beinhaltet eine umfassende Audit-Protokollierung und unveränderliche Speicherung (Stand Februar 2026)
